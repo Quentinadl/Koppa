@@ -1,0 +1,645 @@
+body{
+	
+}
+
+.*{
+	font-family: Comic Sans MS, Arial, serif;;
+}
+
+a:hover{		/*Les liens changent de couleurs quand je passe avec la souris*/
+	text-decoration-color: grey;
+
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+a.nounderline:link 
+{ 
+ text-decoration:none; 
+}
+
+/*@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('fredoka/FredokaOne-Regular.otf') format('otf'),
+         url('fredoka/Fredoka dingbats.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+.flottantlogo{
+	display: flex;
+	position: absolute;
+
+	/*Taille*/
+	width: 60px;
+	left: 20px;
+}
+
+.menu{
+
+	position: absolute;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	/*Taille*/
+	width: 400px;
+	height: 45px;
+	right: 2px;	
+	top: 40px;
+
+	/*background-color: green*/;
+}
+
+.flottantFlag{
+	display: flex;
+
+	/*Taille*/
+	height: 38px;
+}
+
+.Projets{
+	/* Placement */
+	width: auto;
+	height:auto;
+	vertical-align: middle;
+
+	/* Police */	
+	font-family: Comic Sans MS;
+	font-size: 160%;
+	text-align: center;
+
+	/*background: purple;*/
+}
+
+.BoxDisBonjour{
+
+	/* Placement */
+	box-sizing: border-box;
+	display: flex;
+
+	/*Taille*/
+	width: 158px;
+	height: 100%;
+
+
+	border: 2px solid #6D9C86;
+	border-radius: 11px;
+
+
+	/*background-color: grey;*/
+}
+
+.DisBonjour{
+
+	/*Taille*/
+	width: 100%;
+	height: auto;
+	margin: auto;
+
+	/* Police */
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 160%;
+	text-align: center;
+	align-items: center;
+	color: #6D9C86;
+
+	/*background-color: red ;*/
+}
+
+.vitrineimage{
+	position: absolute;
+	height: 70%;
+	left: 40%;
+	top: 150px;
+}
+
+.vitrinetext{
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 9%;
+	top: 25%;
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 290%;
+
+	/*background-color: grey;*/
+}
+
+
+.BoxBody{
+	position: absolute;
+		
+	display: flex;
+	justify-content: center;
+
+	top: 100%;
+	height: 3388px;
+	width: 100%;
+	left: 0px;
+
+	font-family: Comic Sans MS;
+
+
+	/*background-color: red;*/
+}
+
+.BoxPresentation{
+	/* Rectangle 4 */
+
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+
+	background: rgba(109, 156, 134, 0.71);
+}
+
+.BoxPresentationtitre{
+	
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 15%;
+
+	font-family: Comic Sans MS;
+	text-align: center;	
+	font-size: 190%;
+	/*background: red;*/
+}
+
+.BoxPresentationtext{
+
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 25%;
+	left: 10%;
+
+	font-family: Comic Sans MS;
+	text-align: center;	
+	font-size: 100%;
+
+
+	/*background: grey;*/
+}
+
+.BigBoxCompetence{
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	height: 700px;
+	left: 0px;
+	top: 280px;
+
+	/*background-color: black;*/
+
+}
+
+.BoxCompetence{
+	box-sizing: border-box;
+	z-index: 1;
+
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+
+
+	width: 1200px;
+	height: 100%;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.33);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 42px;
+}
+
+.BoxCompetenceDesign{
+
+	display: flex;
+	justify-content: space-around;
+
+	box-sizing: border-box;
+
+	width: 400px;
+	height: 100%;
+
+	border-left: 1px solid rgba(0, 0, 0, 0);
+	/*background-color: red;*/
+}
+
+.BoxCompetenceDeveloppeur{
+	display: flex;
+	justify-content: center;
+
+	box-sizing: border-box;
+
+	width: 400px;
+	height: 100%;
+
+	border-left: 1px solid rgba(0, 0, 0, 0.33);
+	/*background-color: yellow;*/
+}
+
+.BoxCompetencePhotographe{
+	display: flex;
+	justify-content: center;
+
+	box-sizing: border-box;
+
+	width: 400px;
+	height: 100%;
+
+	border-left: 1px solid rgba(0, 0, 0, 0.33);
+
+	/*background-color: green;*/
+}
+
+.LogoCompetence{
+
+	position: absolute;
+	width: 75px;
+	height: auto;
+	top: 5%;
+	left: 10%;
+}
+
+.TitreCompetence{
+
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 20%;
+	
+
+	/* Titre présentation */
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 160%;
+
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+	/*background: grey;*/
+}
+
+.paragraphe{
+
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 25px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.BoxCompetence1{
+
+
+	position: absolute;
+	width: 310px;
+	height: auto;
+	top: 27%;
+	/*background: grey;*/
+}
+
+.BoxCompetence2{
+
+
+	position: absolute;
+	width: 250px;
+	height: auto;
+	top: 50%;
+	/*background: grey;*/
+}
+
+.BoxCompetence3{
+
+
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 75%;
+	/*background: grey;*/
+}
+
+.TitreCompetence1{
+
+
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 45%;
+
+	/* Titre présentation */
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 100%;
+
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #6D9C86;
+	/*background: red;*/
+}
+
+.TitreCompetence2{
+	/* Designer */
+
+
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 70%;
+
+	/* Titre présentation */
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 100%;
+
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #6D9C86;
+	/*background: red;*/
+}
+
+.BigBoxTravaux{
+
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	height: 1000px;
+	left: 0px;
+	top: 1100px;
+
+	/*background-color: grey;*/
+}
+
+.BoxTravaux{
+
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	width: 1200px;
+	height: 1000px;
+
+	/*background-color: red;*/
+}
+
+.BoxTitreTravaux{
+	position: absolute;
+
+	width:auto ;
+	height: 40px;
+	left: 5px;
+	top: -30px;
+	left: 10px;
+
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 160%;
+
+	/*background: white;*/
+}
+
+.BoxMesprogrammes{
+
+	position: absolute;
+
+	width:900px ;
+	height: 313px;
+	left: 150px;
+	top: 40px;
+
+
+	/*background: yellow;*/
+
+
+}
+
+.BoxMesprojetsacadémiques{
+
+	position: absolute;
+
+	width:900px ;
+	height: 313px;
+	top: 353px;
+	left: 150px;
+
+
+	border-top: 1px solid rgba(0, 0, 0, 0.33);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+
+	/*background: blue;*/
+
+}
+
+.BoxMesvoyages{
+
+	position: absolute;
+
+	width:900px ;
+	height: 313px;
+	top: 666px;
+	left: 150px;
+
+	/*background: green;*/
+
+}
+
+.TitreTravaux{
+	position: absolute;
+
+	width:auto ;
+	height: 40px;
+	left: 5px;
+	top: 50px;
+
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 160%;
+	color: #6D9C86;
+}
+
+.BoxTextTravaux{
+	position: absolute;
+
+	width:400px ;
+	height: 140px;
+	top: 100px;
+
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 25px;
+
+	/*background-color: black;*/
+}
+
+.BoxEnsavoirplus{
+
+		display: flex;
+	justify-content: center;
+
+	position: absolute;
+	/*Taille*/
+	width:150px;
+	height: 50px;
+	top: 190px;
+
+
+	border: 2px solid black;
+	border-radius: 11px;
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 100%;
+	color: white;
+	text-align: center;
+	align-items: center;
+
+
+	background-color: black;
+}
+
+
+.BoxTimeLine{
+	/* Rectangle 4 */
+
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	left: 0px;
+	top: 2200px;
+
+	background: rgba(109, 156, 134, 0.71);
+}
+
+
+
+.footer{
+	
+	position: absolute;
+
+	width: 400px;
+	height: 70px;
+	top: 3375px;
+
+	background: rgba(109, 156, 134, 0.71);
+	border-radius: 60px 60px 0px 0px;
+
+}
+
+.FooterLine{
+	position: absolute;
+
+	width: 300px;
+	height: 0px;
+	top: 50px;
+	left: 50px;
+
+	border-top: 2px solid #000000;
+}
+
+
+.BoxElement{
+	position: absolute;
+
+	z-index: 1;
+
+	
+	display: flex;
+	justify-content: center;
+
+	width: 50px;
+	height: 50px;
+	top: 0px;
+
+	/*background-color: yellow;*/
+}
+
+
+.BoxCopiright{
+
+	position: absolute;
+
+	width: 400px;
+	height: 0px;
+	top: 53px;
+
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 75%;
+	color: black;
+	text-align: center;
+	align-items: center;
+}
+
+.LogoResaux{
+	position: absolute;
+
+	width: 30px;
+	height: 30px;
+	top: 5px;
+	left: 10px;
+}
+
+.TextResaux{
+
+	position: absolute;
+	width: 50px;
+	height: 15px;
+	top: 35px;
+	left: 0px;
+
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-size: 50%;
+	color: black;
+	text-align: center;
+	align-items: center;
+}
+
+.BoxLien{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+
+	/*background-color: red;*/
+}
