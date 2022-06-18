@@ -237,17 +237,6 @@ a.nounderline:link
 	/*background: black;*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
 footer{
 
 	position: absolute;
@@ -255,4 +244,28 @@ footer{
 	height: 25%;
 	top: 500%;
 	background: black;
+}
+
+
+@media (max-width : 1200px){
+	.vitrinetext{
+		top: 150px;
+	}
+
+.vitrineimage{
+	width: 45%;
+	max-height: 500px;
+	left: 5%;
+	top : 350px;
+	height: auto;
+}
+
+.BoxFormulaire{
+	height: 50%;
+	width: 50%;
+	max-height: 400px;
+	top: 300px;
+}
+
+
 }
