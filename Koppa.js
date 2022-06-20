@@ -6,6 +6,15 @@ function getRandomInt(max) {
 
 function change(){
     n = getRandomInt(3);
-    document.getElementById('t').innerHTML = tab[n];
+    document.getElementById('DescriptionChangement').innerHTML = tab[n];
 }
 setInterval(change, 1500);   
+
+
+
+// const questionContainer = document.querySelector(".vitrineimage");
+
+// questionContainer.addEventListener("click", () => {
+//     console.log("Click !");
+// });
+
