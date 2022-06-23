@@ -6,7 +6,7 @@ function getRandomInt(max) {
 
 function change(){
     n = getRandomInt(3);
-    document.getElementById('DescriptionChangement').innerHTML = tab[n];
+    document.getElementById('Description2').innerHTML = tab[n];
 }
 setInterval(change, 1500);   
 
