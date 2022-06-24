@@ -735,11 +735,11 @@ html{
 		/*Taille*/
 		width: auto;
 		height: auto;
-		left: 130px;
-		top: 150px;
+		left: 90px;
+		top: 100px;
 
 		/* Police */
-		font-size: 240%;
+		font-size: 350%;
 		/*background-color: grey;*/
 	}
 
@@ -752,8 +752,8 @@ html{
 	    width: 400px;
 
 		/*Taille*/
-		top: 70px;
-		left: 50px;
+		top: 80px;
+		left: 110px;
 
 		/* Police */
 	    font-size: 75%;
@@ -787,7 +787,7 @@ html{
 
 		position: absolute;
 		width: 100%;
-		height: 1600px;
+		height: 2200px;
 		left: 0px;
 		top: 0px;
 
@@ -814,10 +814,10 @@ html{
 		position: absolute;
 
 		/*Taille*/
-		width: 80%;
+		width: 90%;
 		height: auto;
 		top: 80px;
-		left: 10%;
+		left: 5%;
 
 		/* Police */
 		font-size: 100%;
@@ -831,13 +831,13 @@ html{
 
 		/*Taille*/
 		width: 100%;
-		height: 1300px;
+		height: 1900px;
 		left: 0px;
-		top: 200px;
+		top: 260px;
 		color: #000000;
 
-	/*	background-color: red;
-	*/}
+		/*background-color: red;*/
+	}
 
 	.BoxSkill{
 		/* Placement */
@@ -849,9 +849,10 @@ html{
 		/*Taille*/
 		width: 85%;
 		height: 100%;
-
-	/*	background-color: blue;
-	*/}
+		background: none;	
+		border: none;
+		box-shadow: none;
+	}
 
 	.BoxSkillDesign{
 		/* Placement */
@@ -859,7 +860,7 @@ html{
 
 		/*Taille*/
 		width: 100%;
-		height: 420px;
+		height: 600px;
 
 
 
@@ -880,8 +881,8 @@ html{
 
 		/*Taille*/
 		width: 100%;
-		height: 420px;
-		top: 450px;
+		height: 600px;
+		top: 650px;
 
 		/* Style */
 		box-sizing: border-box;
@@ -899,8 +900,8 @@ html{
 
 		/*Taille*/
 		width: 100%;
-		height: 420px;
-		top: 900px;
+		height: 600px;
+		top: 1300px;
 
 		/* Style */
 		box-sizing: border-box;
@@ -916,7 +917,7 @@ html{
 		position: absolute;
 
 		/*Taille*/
-		width: 75px;
+		width: 100px;
 		height: auto;
 		top: 5%;
 		left: 30%;
@@ -928,7 +929,7 @@ html{
 		position: absolute;
 
 		/*Taille*/
-		width: 75px;
+		width: 100px;
 		height: auto;
 		top: 5%;
 		left: 30%
@@ -939,7 +940,7 @@ html{
 		position: absolute;
 
 		/*Taille*/
-		width: 75px;
+		width: 100px;
 		height: auto;
 		top: 5%;
 		left : 30%
@@ -954,13 +955,13 @@ html{
 		/*Taille*/
 		width:auto;
 		height: auto;
-		top: 35px;
-		left: 40%;
+		top: 45px;
+		left: 45%;
 
 		/* Police */
 		font-family: Comic Sans MS;
 		font-style: normal;
-		font-size: 190%;
+		font-size: 240%;
 		color: #000000;
 
 	/*	background-color: grey;
@@ -976,8 +977,8 @@ html{
 
 
 		/* Police */
-		font-size: 140%;
-		line-height: 25px;
+		font-size: 190%;
+		line-height: 40px;
 		color: #000000;
 	}
 
@@ -987,10 +988,9 @@ html{
 		text-align: center;
 
 		/*Taille*/
-		width: 90%;
-		left: 5%;
+		width: 100%;
 		height: auto;
-		top: 100px;
+		top: 140px;
 		
 
 		/*background-color: yellow;*/
@@ -1003,10 +1003,9 @@ html{
 
 
 		/*Taille*/
-		width: 90%;
-		left: 5%;
+		width: 100%;
 		height: auto;
-		top: 210px;
+		top: 330px;
 		/*background-color: darkred;*/
 	}
 
@@ -1016,10 +1015,9 @@ html{
 		text-align: center;
 
 		/*Taille*/
-		width: 90%;
-		left: 5%;
+		width: 100%;
 		height: auto;
-		top: 75%;
+		top: 460px;
 
 		/*background-color: green;*/
 	}
@@ -1030,14 +1028,13 @@ html{
 		text-align: center;
 
 		/*Taille*/
-		width: 90%;
-		left: 5%;
+		width: 100%;
 		height: auto;
-		top: 170px;
+		top: 280px;
 
 		/* Police */
 		font-style: normal;
-		font-size: 180%;
+		font-size: 240%;
 		color: #6D9C86;
 
 		/*background-color: grey;*/
@@ -1049,14 +1046,13 @@ html{
 		text-align: center;
 
 		/*Taille*/
-		width: 90%;
-		left: 5%;
+		width: 100%;
 		height: auto;
-		top: 260px;
+		top: 410px;
 
 		/* Police */
 		font-style: normal;
-		font-size: 180%;
+		font-size: 240%;
 		color: #6D9C86;
 	/*	background-color: violet;*/
 	}
@@ -1071,7 +1067,7 @@ html{
 		width: 100%;
 		height: 1000px;
 		left: 0px;
-		top: 1700px;
+		top: 2300px;
 	}
 
 	.BoxWorks{
@@ -1200,7 +1196,7 @@ html{
 		/*Taille*/
 		width: 400px;
 		height: 100px;
-		top: 2800px;
+		top: 3400px;
 
 		/* Style */
 		background: rgba(109, 156, 134, 0.71);
@@ -1294,6 +1290,7 @@ html{
 		top: 0px;
 		left: 0px;
 	}
+
 
 
 
