@@ -46,7 +46,7 @@ frigs.addEventListener('click', function () {
   title.innerHTML = "Application mobile";
   text.innerHTML = "Nous sommes une équipe d'étudiants en ingénierie qui a créé Frig's, une application innovante visant à résoudre le problème du gaspillage alimentaire. Frig's permet à chacun de vider son frigo tout en réduisant la quantité de déchets alimentaires dans les ménages. Notre prototype, réalisé en équipe dans le cadre d'un projet semestriel.";
   link.href = "Documents/Frigs.pdf";
-  image.src = "Images/frigs.png";
+  image.src = "Images/Figma.png";
 });
 
 design.addEventListener('click', function () {
