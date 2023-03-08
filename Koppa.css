@@ -860,7 +860,7 @@ footer {
 		display: flex;
 		position: fixed;
 		z-index: 10;
-		top: 1700px;
+		bottom: 150px;
 		left: 85%;
 	}
 
