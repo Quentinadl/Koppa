@@ -85,6 +85,10 @@ header {
 	background: linear-gradient(180deg, #EDEEF0 0%, #EDEEF0 50%, rgba(237, 238, 240, 0) 63.02%);
 }
 
+#header-tel{
+	display:none;
+}
+
 #header-a {
 	color: black;
 	font-family: 'Inter';
@@ -867,16 +871,60 @@ footer {
 	.Logo {
 		width: 100px;
 		height: auto;
-
 	}
 
-	header {
+
+
+	#header-a{
 		display: none;
 	}
+
+	#header-ab{
+		display: none;
+	}
+	
+	#switch{
+		display: none;
+	}
+	
+	#Menu{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	#header-tel{
+		color: black;
+		font-family: 'Inter';
+		text-decoration: none;
+		font-size: 45px;
+		display: block;
+		margin-top: auto;
+		margin-bottom: auto;
+		padding: 20px;
+		border-radius: 7px;
+		margin-left: -100px;
+	}
+
+
+
+
+
 
 	.Showcase {
 		display: none
 	}
+
+
+
+
+
+
+
+
+
+
+
+
 
 	.ImageShowcase2 {
 		/* Placement */
