@@ -914,24 +914,13 @@ footer {
 		display: none
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
 	.ImageShowcase2 {
 		/* Placement */
 		display: flex;
 
 		/*Taille*/
 		width:100%;
+		padding-top: 120px;
 		z-index: 9;
 		top: 0px;
 		left: 0px;
