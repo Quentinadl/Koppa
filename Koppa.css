@@ -860,22 +860,80 @@ footer {
 
 @media screen and (max-width : 1094px) {
 
+	#header{
+		display: none;
+	}
+
 	#contact{
+		display: none;
+	}
+
+	.Showcase{
+		display: none;
+	}
+
+	.Presentation{
+		display: none;
+	}
+
+	.Comptétence{
+		display: none;
+	}
+
+	#Domaine{
+		display: none;
+	}
+
+	.Projet{
+		display: none;
+	}
+
+	line{
+		display: none;
+	}
+	#footer{
+		display: none;
+	}
+
+
+	.ImageShowcase2 {
+		/* Placement */
 		display: flex;
+
+		/*Taille*/
+		width:100%;
+		padding-top: Opx;
+		z-index: 9;
+		top: 0px;
+		left: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	#contact{
+		display: none;
 		position: fixed;
 		z-index: 10;
 		bottom: 150px;
-			left: 85%;
+		left: 85%;
 	}
 
 	.Logo {
+		display: none;
 		width: 100px;
 		height: auto;
 	}
 
-
-
-	#header-a{
+	#header{
 		display: none;
 	}
 
@@ -910,21 +968,11 @@ footer {
 
 
 
-	.Showcase {
+	.Showcase {	
 		display: none
 	}
 
-	.ImageShowcase2 {
-		/* Placement */
-		display: flex;
 
-		/*Taille*/
-		width:100%;
-		padding-top: 120px;
-		z-index: 9;
-		top: 0px;
-		left: 0px;
-	}
 
 	.Presentation {
 		flex-direction: column;
