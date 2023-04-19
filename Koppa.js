@@ -60,27 +60,22 @@ design.addEventListener('click', function () {
 /* -----Changement de thème----- */
 
 const switchElement = document.querySelector('#switch input[type="checkbox"]');
-const headerElement = document.querySelector('header');
-const headeraElement = document.querySelector('#header-a');
-const footerElement = document.querySelector('footer');
-
+const rootElement = document.querySelector(':root');
 
 switchElement.addEventListener('click', function () {
   if (switchElement.checked) {    /* Foncé */
-    document.body.style.backgroundColor = '#333333';
-    headeraElement.style.color = '#EDEEF0';
-    headerElement.style.background = 'linear-gradient(180deg, #333333 0%, #333333 50%, rgba(51, 51, 51, 0) 63.02%)';
-    footerElement.style.color = '#EDEEF0';
-    document.footer.style.backgroundColor = '#EDEEF0';
+    rootElement.style.setProperty('--couleur-fond', '#333333');
+    rootElement.style.setProperty('--couleur-text', '#BCBDBF');
+    rootElement.style.setProperty('--couleur-fonce', '#EDEEF0');
+    rootElement.style.setProperty('--couleur-gros-texte', '#FFF');
+    
+  }
+  else {      /* Claire */
+    rootElement.style.setProperty('--couleur-fond', '#EDEEF0');
+    rootElement.style.setProperty('--couleur-text', '#555555');
+    rootElement.style.setProperty('--couleur-fonce', '#000');
+    rootElement.style.setProperty('--couleur-gros-texte', '#FFF');
 
-
-  } else {      /* Claire */
-    document.body.style.backgroundColor = '#EDEEF0';
-    headeraElement.style.color = 'black';
-    headerElement.style.background = 'linear-gradient(180deg, #EDEEF0 0%, #EDEEF0 50%, rgba(237, 238, 240, 0) 63.02%)';
-    document.footer.style.backgroundColor = '#333333';
-
-    footerElement.style.color =  '#333333';
 
   }
 });

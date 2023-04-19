@@ -1,17 +1,24 @@
 /*-----Constuction de la page-----*/
 body {
-	background-color: #EDEEF0;
+	background-color: var(--couleur-fond);
 
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
 	margin-left: 0px;
+}
 
+:root{
+	--couleur-fond: #EDEEF0;
+	--couleur-text: #333333;
+	--couleur-fonce: #000;
+	--couleur-verte: #6D9C86;
+	--couleur-gros-texte: #FFF;
 }
 
 line {
 	display: flex;
-	border: 1px solid black;
+	border: 1px solid var(--couleur-fonce);
 
 	width: 80%;
 	margin-left: 10%;
@@ -33,7 +40,6 @@ html {
 }
 
 /* -----Construction de la scrollbar----- */
-
 html::-webkit-scrollbar {
 	width: 10px;
 	height: 0px;
@@ -41,18 +47,16 @@ html::-webkit-scrollbar {
 
 /* Track */
 html::-webkit-scrollbar-track {
-	background: #edeef000;
 	padding-bottom: 0px;
 }
 
 /* Handle */
 html::-webkit-scrollbar-thumb {
-	background: #4a4a4a;
+	background: var(--couleur-text);
 	border-radius: 45px;
 }
 
 /* -----Header----- */
-
 #contact {
 	display: none;
 }
@@ -67,7 +71,8 @@ html::-webkit-scrollbar-thumb {
 	margin-left: -98px;
 	margin-right: -96px;
 
-	border-bottom: 2px solid #000000
+	border-bottom: 2px solid;
+	border-color: #000;
 }
 
 header {
@@ -82,7 +87,7 @@ header {
 	width: 100%;
 	margin-top: -11px;
 
-	background: linear-gradient(180deg, #EDEEF0 0%, #EDEEF0 50%, rgba(237, 238, 240, 0) 63.02%);
+	background: linear-gradient(180deg, var(--couleur-fond) 0%, var(--couleur-fond) 50%, rgba(237, 238, 240, 0) 63.02%);
 }
 
 #header-tel{
@@ -90,7 +95,7 @@ header {
 }
 
 #header-a {
-	color: black;
+	color:var(--couleur-fonce);
 	font-family: 'Inter';
 	text-decoration: none;
 	font-size: 120%;
@@ -103,13 +108,13 @@ header {
 }
 
 #header-a:hover {
-	color: #6D9C86;
+	color: var(--couleur-verte);
 	transform: translateY(-5px);
 	transition: 0.2s;
 }
 
 #header-ab {
-	color: #EDEEF0;
+	color: var(--couleur-fond);
 	font-family: 'Inter';
 	text-decoration: none;
 	font-size: 20px;
@@ -120,20 +125,19 @@ header {
 	padding: 10px;
 	margin: 11px;
 	transition: 0.2s;
-	background-color: #6D9C86;
+	background-color: var(--couleur-verte);
 	border-radius: 7px;
 }
 
 #header-ab:hover {
 	transform: translateY(-5px);
-	background-color: #EDEEF0;
-	color: black;
+	background-color: var(--couleur-fond);
+	color: var(--couleur-fonce);
 	text-decoration: None;
 	transition: 0.2s;
 }
 
 /* -----Logo----- */
-
 .Logo {
 	display: flex;
 	justify-content: center;
@@ -197,9 +201,7 @@ input:checked+.slider:before {
 	box-shadow: inset 15px -4px 0px 15px #333333;
 }
 
-
 /*-----Elements de vitrine-----*/
-
 .Showcase {
 	/* Placement */
 	display: flex;
@@ -241,16 +243,13 @@ input:checked+.slider:before {
 	font-weight: 800;
 	font-size: 1000%;
 	line-height: 200px;
-	color: white;
+	color: var(--couleur-gros-texte);
 
-	border-bottom: 2px solid White;
+	border-bottom: 2px solid ;
+	border-color: var(--couleur-gros-texte);
 }
 
-
-
-
 /*-----Elements de Présentation-----*/
-
 .Presentation {
 	/* Placement */
 	display: flex;
@@ -265,6 +264,7 @@ input:checked+.slider:before {
 #Title {
 	/* Placement */
 	display: flex;
+	color: var(--couleur-fonce);
 
 	/*Taille*/
 	margin-right: auto;
@@ -299,9 +299,10 @@ input:checked+.slider:before {
 	font-weight: 600;
 	line-height: 130%;
 	text-align: left;
-	color: #555555;
+	color: var(--couleur-text);
 }
 
+/*-----Bouton Contact-----*/
 button3 {
 	align-items: center;
 	background-color: transparent;
@@ -323,8 +324,8 @@ button3 {
 
   }
   
-  button3:before {
-	background-color: #000;
+button3:before {
+	background-color: var(--couleur-fonce);
 	content: "";
 	display: inline-block;
 	height: 1px;
@@ -334,64 +335,16 @@ button3 {
 
   }
   
-  button3:hover:before {
-	background-color: #000;
+button3:hover:before {
+	background-color: var(--couleur-fonce);
 	width: 3rem;
   }
 
-  button3:hover{
-	color: #000;
+button3:hover{
+	color: var(--couleur-fonce);
   }
 
-/*-----Elements de CV-----*/
-
-button1 {
-	position: relative;
-	font-size: 80%;
-	padding: 2%;
-	margin-left: 5%;
-	margin-top: 5%;
-	top: 25px;
-	height: auto;
-	width: auto;
-	margin-right: auto;
-	background-color: #6D9C86;
-	text-decoration: none;
-	border: none;
-	border-radius: 0.5em;
-	color: #EDEEF0;
-	box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
-}
-
-button1::before {
-	position: absolute;
-	content: '';
-	height: 0;
-	width: 0;
-	top: 0;
-	left: 0;
-	background: linear-gradient(135deg, #EDEEF0 0%, #EDEEF0 50%, #6D9C86 50%, #6D9C86 60%);
-	border-radius: 0 0 0.5em 0;
-	box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
-	transition: 0.3s;
-}
-
-button1:hover::before {
-	width: 1.6em;
-	height: 1.6em;
-}
-
-button1:active {
-	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
-	transform: translate(0.1em, 0.1em);
-}
-
-
-
-
 /*-----Elements de expérience -----*/
-
-
 .Comptétence {
 	/* Placement */
 	display: flex;
@@ -426,8 +379,6 @@ button1:active {
 	background: #EDEEF0;
 	border: 1px solid #4a4a4a;
 	margin: 300px;
-	/*     border-radius: 50px;
- */
 	padding-bottom: 0px;
 }
 
@@ -527,7 +478,6 @@ button1:active {
 }
 
 /*-----Elements de compétence-----*/
-
 #Domaine {
 	/* Placement */
 	display: flex;
@@ -549,7 +499,8 @@ button1:active {
 
 	/*Taille*/
 	height: auto;
-	border-top: #000000 0.5px solid;
+	border-top: 0.5px solid;
+	border-color: var(--couleur-fonce);
 }
 
 #DomaineTextTitle {
@@ -568,8 +519,11 @@ button1:active {
 	color: #6D9C86;
 }
 
-/*-----Elements de Projet-----*/
+#DomaineTextText {
+	color: var(--couleur-text);
+}
 
+/*-----Elements de Projet-----*/
 .Projet {
 	/* Placement */
 	display: flex;
@@ -591,8 +545,8 @@ button1:active {
 	margin-right: auto;
 	height: auto;
 	width: 85%;
-		border: 0.5px solid #000000;
-
+	border: 0.5px solid;
+	border-color: var(--couleur-fonce);
 	border-radius: 10px;
 }
 
@@ -602,7 +556,6 @@ button1:active {
 	width: 40%;
 	padding-top: 2%;
 	margin-right: 10%;
-
 }
 
 #title {
@@ -626,6 +579,7 @@ button1:active {
 	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	color: var(--couleur-fonce);
 
 
 }
@@ -643,7 +597,7 @@ button1:active {
 	flex-direction: column;
 	text-align: left;
 	margin-left: 2%;
-	color: #555555;
+	color: var(--couleur-text);
 
 	font-weight: 400;
 	font-size: 15px;
@@ -670,6 +624,7 @@ button1:active {
 	width: auto;
 }
 
+/*-----Boutton projet-----*/
 button2 {
 	position: relative;
 	padding: 2%;
@@ -683,7 +638,7 @@ button2 {
 	margin-right: 10px;
 
 	font-weight: 600;
-	color: #333333;
+	color: var(--couleur-text);
 }
 
 button2:hover {
@@ -696,9 +651,49 @@ button2:hover:after {
 	color: #EDEEF0;
 }
 
+/*-----Boutton en savoir plus-----*/
+button1 {
+	position: relative;
+	font-size: 80%;
+	padding: 2%;
+	margin-left: 5%;
+	margin-top: 5%;
+	top: 25px;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	background-color: #6D9C86;
+	text-decoration: none;
+	border: none;
+	border-radius: 0.5em;
+	color: #EDEEF0;
+	box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+button1::before {
+	position: absolute;
+	content: '';
+	height: 0;
+	width: 0;
+	top: 0;
+	left: 0;
+	background: linear-gradient(135deg, #EDEEF0 0%, #EDEEF0 50%, #6D9C86 50%, #6D9C86 60%);
+	border-radius: 0 0 0.5em 0;
+	box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+	transition: 0.3s;
+}
+
+button1:hover::before {
+	width: 1.6em;
+	height: 1.6em;
+}
+
+button1:active {
+	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+	transform: translate(0.1em, 0.1em);
+}
+
 /*-----Elements de Footer-----*/
-
-
 footer {
 	background-color: #333333;
 	display: flex;
@@ -749,6 +744,7 @@ footer {
 	width: 70%;
 	height: auto;
 }
+
 .copyright {
 	text-align: center;
 	margin: auto;
@@ -786,80 +782,9 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.SocialNetworks {
-
-	justify-content: center;
-	flex-direction: column;
-
-
-	display: flex;
-	height: auto;
-	width: auto;
-	margin: 3%;
-	margin-top: 5%;
-	padding-right: auto;
-	padding-left: auto;
-
-	/* background-color: red;
- */
-}
-
-
-
-
-
-
-.BoxElement {
-	/* Placement */
-	display: flex;
-	justify-content: center;
-	display: flex;
-
-
-	/*Taille*/
-	width: 100px;
-	height: 100%;
-
-	/* 	background-color: green;
- */
-}
-
-.LogoSocialNetworks {
-	/* Placement */
-	display: flex;
-	z-index: 1;
-
-	/*Taille*/
-
-	width: 40px;
-	height: 40px;
-	margin-top: 1px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-
-
 /*-----Elements de responsivité-----*/
 
 @media screen and (max-width : 1094px) {
-
 	#header{
 		display: none;
 	}
@@ -895,7 +820,6 @@ footer {
 		display: none;
 	}
 
-
 	.ImageShowcase2 {
 		/* Placement */
 		display: flex;
@@ -907,16 +831,6 @@ footer {
 		top: 0px;
 		left: 0px;
 	}
-
-
-
-
-
-
-
-
-
-
 
 
 	#contact{
@@ -963,16 +877,9 @@ footer {
 		margin-left: -100px;
 	}
 
-
-
-
-
-
 	.Showcase {	
 		display: none
 	}
-
-
 
 	.Presentation {
 		flex-direction: column;
@@ -1031,7 +938,6 @@ footer {
 
 	}
 
-
 	#RepoTitle {
 		width: 445px;
 		height: 100px;
@@ -1056,8 +962,6 @@ footer {
 		margin: 5%;
 	}
 	
-
-
 	#DomaineBox {
 		border-top: #000000 1px solid;
 		padding: 5%;
@@ -1074,40 +978,13 @@ footer {
 		line-height: 40px;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	.Comptétence {
 		/* Placement */
 		display: flex;
 	}
 
-
-
 	#DomaineBox {
 		margin-left: 2%;
 
 	}
-
-
 }
