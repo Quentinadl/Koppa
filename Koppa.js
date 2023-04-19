@@ -17,7 +17,7 @@ const image = document.querySelector('#image');
 Cyber.addEventListener('click', function () {
   title.innerHTML = "Rapport cyber 2022";
   text.innerHTML = "Stagiaire en cybersécurité, j'ai observé les défis de sécurité numérique auxquels les entreprises et les individus sont confrontés. Dans ce rapport, j'aborde les différents types d'attaques, leurs conséquences et les mesures de prévention des risques. Mon objectif est de sensibiliser les utilisateurs aux risques en ligne et de les aider à se protéger.";
-  link.href = "Documents/Rapport_Cyber_2022.pdf";
+  link.href = "Documents/Aperçu des cyber menaces les plus répandues sur l’année 2022.pdf";
   image.src = "Images/cyber.png";
 });
 
