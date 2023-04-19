@@ -980,7 +980,7 @@ footer {
 
 	.Comptétence {
 		/* Placement */
-		display: flex;
+		display: none;
 	}
 
 	#DomaineBox {
