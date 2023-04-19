@@ -46,14 +46,14 @@ frigs.addEventListener('click', function () {
   title.innerHTML = "Application mobile";
   text.innerHTML = "Nous sommes une équipe d'étudiants en ingénierie qui a créé Frig's, une application innovante visant à résoudre le problème du gaspillage alimentaire. Frig's permet à chacun de vider son frigo tout en réduisant la quantité de déchets alimentaires dans les ménages. Notre prototype, réalisé en équipe dans le cadre d'un projet semestriel.";
   link.href = "Documents/Frigs.pdf";
-  image.src = "Images/Figma.png";
+  image.src = "Images/frigs.png";
 });
 
 design.addEventListener('click', function () {
   title.innerHTML = "Mes design";
   text.innerHTML = "Je suis passionné de design et j'utilise Figma pour réaliser mes projets personnels et étudiants. J'aime créer des designs visuellement attrayants qui optimisent l'expérience utilisateur en accord avec les valeurs du projet. Mes designs sont protégés par le droit d'auteur.";
   link.href = "https://www.figma.com/file/ze0EMgAWfJQi0TTRz4fh6t/Design---Quentin-ADELINE?node-id=1%3A13565&t=W5OsKeUL0mQnnGCj-1";
-  image.src = "Images/frigs.png";
+  image.src = "Images/Figma.png";
 });
 
 
