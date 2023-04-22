@@ -1,0 +1,169 @@
+/*-----Elements de Projet-----*/
+.Projet {
+	/* Placement */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 5%;
+	padding: 2%;
+
+	/*Taille*/
+	height: auto;
+}
+
+#text-container {
+	display: flex;
+	text-align: center;
+	padding: 20px;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 85%;
+	border: 0.5px solid;
+	border-color: var(--couleur-fonce);
+	border-radius: 10px;
+}
+
+#texte {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	padding-top: 2%;
+	margin-right: 10%;
+}
+
+#title {
+	/* Placement */
+	display: flex;
+
+	/*Taille*/
+	height: auto;
+	width: auto;
+
+	margin-left: -10%;
+	padding-right: 0%;
+	padding-left: 12%;
+
+
+	/* Police */
+	font-family: 'Arial';
+	font-size: 200%;
+	font-weight: 800;
+	line-height: auto;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: var(--couleur-fonce);
+
+
+}
+
+#image {
+	height: auto;
+	width: 50%;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: 1%;
+}
+
+#text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 2%;
+	color: var(--couleur-text);
+
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+#link {
+	display: flex;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.Boutton-text {
+	/* Placement */
+	display: flex;
+	width: auto;
+	margin-left: 5%;
+	margin-right: 15%;
+	align-items: center;
+
+
+	/*Taille*/
+	height: auto;
+	width: auto;
+}
+
+/*-----Boutton projet-----*/
+button2 {
+	position: relative;
+	padding: 2%;
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	text-decoration: none;
+	border: 2px solid #6D9C86;
+	border-radius: 6em;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	font-weight: 600;
+	color: var(--couleur-text);
+}
+
+button2:hover {
+	background-color: #6D9C86;
+	color: #EDEEF0;
+}
+
+button2:hover:after {
+	background-color: #6D9C86;
+	color: #EDEEF0;
+}
+
+/*-----Boutton en savoir plus-----*/
+button1 {
+	position: relative;
+	font-size: 80%;
+	padding: 2%;
+	margin-left: 5%;
+	margin-top: 5%;
+	top: 25px;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	background-color: #6D9C86;
+	text-decoration: none;
+	border: none;
+	border-radius: 0.5em;
+	color: #EDEEF0;
+	box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+button1::before {
+	position: absolute;
+	content: '';
+	height: 0;
+	width: 0;
+	top: 0;
+	left: 0;
+	background: linear-gradient(135deg, #EDEEF0 0%, #EDEEF0 50%, #6D9C86 50%, #6D9C86 60%);
+	border-radius: 0 0 0.5em 0;
+	box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+	transition: 0.3s;
+}
+
+button1:hover::before {
+	width: 1.6em;
+	height: 1.6em;
+}
+
+button1:active {
+	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+	transform: translate(0.1em, 0.1em);
+}

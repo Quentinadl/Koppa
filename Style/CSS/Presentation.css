@@ -1,0 +1,142 @@
+/*-----Elements de vitrine-----*/
+.Showcase {
+	/* Placement */
+	display: flex;
+	justify-content: space-between;
+
+	/*Taille*/
+	height: 600px;
+}
+
+#ImageShowcase {
+	/* Placement */
+	position: absolute;
+
+	/*Taille*/
+	height: 335px;
+	right: 10%;
+	z-index: 9;
+	top: 250px;
+}
+
+.ImageShowcase2 {
+	display: none;
+}
+
+#TextShowcase {
+	/* Placement */
+	position: absolute;
+
+	/*Taille*/
+	margin-left: 8%;
+	margin-right: auto;
+	top: 70px;
+	width: 85%;
+	padding-left: 2%;
+
+	/* Police */
+	font-family: 'Arial';
+	font-style: bold;
+	font-weight: 800;
+	font-size: 1000%;
+	line-height: 200px;
+	color: var(--couleur-gros-texte);
+
+	border-bottom: 2px solid ;
+	border-color: var(--couleur-gros-texte);
+}
+
+/*-----Elements de Présentation-----*/
+.Presentation {
+	/* Placement */
+	display: flex;
+	justify-content: space-between;
+	margin: 5%;
+	padding: 2%;
+
+	/*Taille*/
+	height: auto;
+}
+
+#Title {
+	/* Placement */
+	display: flex;
+	color: var(--couleur-fonce);
+
+	/*Taille*/
+	margin-right: auto;
+	width: auto;
+	height: auto;
+
+	padding-left: 2%;
+	padding-right: 2%;
+
+
+	/* Police */
+	font-family: 'Arial';
+	font-size: 250%;
+	font-weight: 800;
+	line-height: auto;
+	text-align: left;
+}
+
+#PresentationText {
+	/* Placement */
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+
+
+	/*Taille*/
+	width: 55%;
+	height: auto;
+
+	/* Police */
+	font-size: 120%;
+	font-weight: 600;
+	line-height: 130%;
+	text-align: left;
+	color: var(--couleur-text);
+}
+
+/*-----Bouton Contact-----*/
+button3 {
+	align-items: center;
+	background-color: transparent;
+	color: #6D9C86;
+	cursor: pointer;
+	display: flex;
+	font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 1.3rem;
+	font-weight: 700;
+	line-height: 1.5;
+	text-decoration: none;
+	text-transform: uppercase;
+	outline: 0;
+	border: 0px;
+	padding: 1rem;
+	margin-top: 10px;
+	margin-bottom: -40px;
+	margin-left: 50px;
+
+  }
+  
+button3:before {
+	background-color: var(--couleur-fonce);
+	content: "";
+	display: inline-block;
+	height: 1px;
+	margin-right: 10px;
+	transition: all .42s cubic-bezier(.25,.8,.25,1);
+	width: 0;
+
+  }
+  
+button3:hover:before {
+	background-color: var(--couleur-fonce);
+	width: 3rem;
+  }
+
+button3:hover{
+	color: var(--couleur-fonce);
+  }
