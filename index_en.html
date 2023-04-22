@@ -3,32 +3,48 @@
 
 <head> <!--Contiens toute les informations d'en-tête-->
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="Koppa.css" /> <!--Liens entre HTML et CSS-->
-	<title>Koppa</title>
-	<link rel="icon" type="Images/logoKoppa.png" sizes="16x16" href="Images/logoKoppaOnglet.png">
+
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Main.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Menu.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Presentation.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Experience.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Competence.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Project.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Footer.css">
+	<link rel="stylesheet" type="text/css" href="Style/CSS/Responsivity.css">
+
+	<title>Koppa ~ Quentin Adeline</title>
+	<link rel="icon" type="Images/Logo_Koppa.png" sizes="16x16" href="Images/Logo_Koppa_Onglet.png">
 </head>
+
+<header id="header">
+	<a href="index.html"> <img src="Images/Logo_Koppa.png" class="Logo" /></a>
+	<section class="Menu">
+		<a href="#1" id="header-a">About me</a>
+		<a href="#2" id="header-a">My experiences</a>
+		<a href="#3" id="header-a">My skills</a>
+		<a href="#4" id="header-a">My projects</a>
+		<a href="index.html" id="header-ab">Français</a>
+	</section>
+	<a><label id="switch" class="switch">
+			<input type="checkbox">
+			<span class="slider"></span>
+		</label></a>
+</header>
 
 <body id="body">
 
-	<header id="header">
-		<a href="index.html"> <img src="Images/logoKoppa.png" class="Logo" /></a>
-		<section class="Menu">
-			<a href="#1" id="header-a">About me</a>
-			<a href="#2" id="header-a">My experiences</a>
-			<a href="#3" id="header-a">My skills</a>
-			<a href="#4" id="header-a">My projects</a>
-			<a href="index.html" id="header-ab">Français</a>
-		</section>
-		<a style:"display:none;"><label id="switch" class="switch">
-				<input type="checkbox">
-				<span class="slider"></span>
-			</label></a>
-	</header>
+	<div id="contact">
+		<a  target="_blank" style="text-decoration: none;"> 
+			<a href="mailto:quentin.adeline18@gmail.com?subject=[KOPPA] Demande d'information !&body=-----INFORMATION CONTACT-----%0ANom : %0APrénom : %0AAdresse mail : %0ANom de l'entreprie : %0AObjet : %0A%0A -------------MESSAGE------------%0A%0A"> <img src="Images/Contact.png" class="Logo" /></a>
+	</div>
 
 	<section class="Showcase">
 		<div id="TextShowcase">Quentin<br />ADELINE</div>
-		<a><img src="Images/Présentation.jpg" class="ImageShowcase" /></a>
+		<a><img id="ImageShowcase" /></a>
 	</section>
+
+	<a><img src="Images/Presentation_tel.png" class="ImageShowcase2" /></a>
 
 	<line id="1"></line>
 
@@ -49,7 +65,7 @@
 		<div class="repos">
 
 			<a href="https://sepefrei.fr/" target="_blank" id="repo_img">
-				<img src="Images/sep.fr.png" class="img_repo" />
+				<img src="Images/Exp_Sep.png" class="img_repo" />
 			</a>
 
 			<div id="repo">
@@ -59,8 +75,19 @@
 				<div id="LienRepo">Dates: Since September 2022</div>
 			</div>
 
+			<a href="https://www.horusdefense.com/" target="_blank" id="repo_img">
+				<img src="Images/Exp_HorusDefense.png" class="img_repo" />
+			</a>
+
+			<div id="repo">
+				<div id="RepoTitle"> Freelance - Business Developper </div>
+				<div id="DescriptRepo"> Durant cette période, j'ai réalisé une veille des cyber attaques mené en 2022 et effectué des recherches de prospects. J'ai participé à des rendez-vous clients et ai eu l'opportunité de contribuer à la mise en place de la stratégie commerciale.</div>
+				<div id="vide"></div>
+				<div id="LienRepo">Dates: Avril 2023</div>
+			</div>
+
 			<a href="https://www.sekoia.io/" target="_blank" id="repo_img">
-				<img src="Images/sekoia.io.jpg" class="img_repo" />
+				<img src="Images/Exp_Sekoia.jpg" class="img_repo" />
 			</a>
 
 			<div id="repo">
@@ -71,7 +98,7 @@
 			</div>
 
 			<a href="https://my-unilux.com/fr/" target="_blank" id="repo_img">
-				<img src="Images/unilux.fr.jpg" class="img_repo" />
+				<img src="Images/Exp_Unilux.jpg" class="img_repo" />
 			</a>
 
 			<div id="repo">
@@ -131,41 +158,41 @@
 					<button1 style="width: auto;"><b>En savoir plus...</b></button1>
 				</a>
 			</div>
-			<img id="image" src="Images/cyber.png">
+			<img id="image" src="Images/Project_Cyber.png">
 		</div>
 
-
-
-		<script src="Koppa.js"></script>
 	</section>
 
-
-	<footer id="footer">
-		<div id="footer-container">
-			
-			<div class="logos" style="border-right: 1px solid #000000;">
-				<a id="GitHub" href="https://github.com/Quentinadl"><img src="Images/GitHub_blanc.png" ></a>
-				<a href="https://www.linkedin.com/in/quentin-adl/"><img src="Images/LinkedIn_blanc.png" ></a>
-				<a href="https://www.instagram.com/_quentin_adl_/?next=%2F"><img src="Images/Instagram_blanc.png" ></a>
-			</div>
-
-			<div class="ecole">
-				<a href="https://sepefrei.fr/"><img src="Images/SEPEFREI_blanc.png" alt="Logo Facebook"></a>
-				<a href="https://www.efrei.fr/"><img src="Images/EFREI_blanc.png" alt="Logo Twitter" style="padding-left: 5px; margin-top: 2%;"></a>
-			</div>
-
-			<!-- 		  <div class="contact-form">
-			<form id="contact-form">
-			  <input type="email" placeholder="Entrez votre adresse email">
-			  <textarea placeholder="Votre message"></textarea>
-			  <button type="submit">Envoyer</button>
-			</form>
-		  </div> -->
-
-		</div>
-		<p class="text-center">&copy; Quentin ADELINE -  All rights reserved</p>
-	</footer>
-
 </body>
+
+<footer id="footer">
+	<div id="footer-container">
+		
+		<div class="logos" style="border-right: 1px solid #000000;">
+			<a id="GitHub" href="https://github.com/Quentinadl"><img src="Images/Logo_GitHub_blanc.png" ></a>
+			<a href="https://www.linkedin.com/in/quentin-adl/"><img src="Images/Logo_LinkedIn_blanc.png" ></a>
+			<a href="https://www.instagram.com/_quentin_adl_/?next=%2F"><img src="Images/Logo_Instagram_blanc.png" ></a>
+		</div>
+
+		<div class="ecole">
+			<a href="https://sepefrei.fr/"><img src="Images/Logo_SEPEFREI_blanc.png" alt="Logo Facebook"></a>
+			<a href="https://www.efrei.fr/"><img src="Images/Logo_EFREI_blanc.png" alt="Logo Twitter" style="padding-left: 5px; margin-top: 2%;"></a>
+		</div>
+
+		<!-- 		  <div class="contact-form">
+		<form id="contact-form">
+		  <input type="email" placeholder="Entrez votre adresse email">
+		  <textarea placeholder="Votre message"></textarea>
+		  <button type="submit">Envoyer</button>
+		</form>
+	  </div> -->
+
+	</div>
+	<p class="text-center">&copy; Quentin ADELINE -  All rights reserved</p>
+</footer>
+
+<script src="Style/JS/Main.js"></script>
+<script src="Style/JS/Theme.js"></script>
+<script src="Style/JS/Project.js"></script>
 
 </html>		
