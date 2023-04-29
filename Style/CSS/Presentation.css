@@ -1,5 +1,5 @@
 /*-----Elements de vitrine-----*/
-.Showcase {
+vitrine{
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -8,22 +8,18 @@
 	height: 600px;
 }
 
-#ImageShowcase {
+#Image_Vitrine {
 	/* Placement */
 	position: absolute;
 
 	/*Taille*/
 	height: 335px;
 	right: 10%;
-	z-index: 9;
+	z-index: 2;
 	top: 250px;
 }
 
-.ImageShowcase2 {
-	display: none;
-}
-
-#TextShowcase {
+#Texte_Vitrine {
 	/* Placement */
 	position: absolute;
 
@@ -47,7 +43,7 @@
 }
 
 /*-----Elements de Présentation-----*/
-.Presentation {
+presentation {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -58,7 +54,7 @@
 	height: auto;
 }
 
-#Title {
+title {
 	/* Placement */
 	display: flex;
 	color: var(--couleur-fonce);
@@ -80,7 +76,7 @@
 	text-align: left;
 }
 
-#PresentationText {
+#Texte_Presentation {
 	/* Placement */
 	display: flex;
 	justify-content: left;
@@ -100,7 +96,7 @@
 }
 
 /*-----Bouton Contact-----*/
-button3 {
+presentation a {
 	align-items: center;
 	background-color: transparent;
 	color: #6D9C86;
@@ -118,10 +114,9 @@ button3 {
 	margin-top: 10px;
 	margin-bottom: -40px;
 	margin-left: 50px;
-
-  }
+}
   
-button3:before {
+presentation a:before {
 	background-color: var(--couleur-fonce);
 	content: "";
 	display: inline-block;
@@ -129,14 +124,49 @@ button3:before {
 	margin-right: 10px;
 	transition: all .42s cubic-bezier(.25,.8,.25,1);
 	width: 0;
-
-  }
+}
   
-button3:hover:before {
+presentation a:hover:before {
 	background-color: var(--couleur-fonce);
 	width: 3rem;
-  }
+}
 
-button3:hover{
+presentation a:hover{
 	color: var(--couleur-fonce);
+}
+
+/*-----Elements de responsivité-----*/
+
+
+  @media screen and (max-width : 1094px) {
+	vitrine{
+		margin-top :100px;
+	}
+	#Texte_Vitrine {
+		margin-top: 100px;
+	}
+	#Image_Vitrine {
+		margin-top: 100px;
+	}
+
+
+	presentation{
+		flex-direction: column;
+	}
+
+	title {
+		font-size: 400%;
+	}
+
+	#Texte_Presentation {
+		margin-top: 40px;
+		width: 90%;
+		font-size: 100%;
+		text-align: center;
+		line-height: 50px;
+	}
+
+	presentation a{
+		display: none ;
+	}
   }

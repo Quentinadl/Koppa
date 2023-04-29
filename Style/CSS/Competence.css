@@ -1,5 +1,5 @@
 /*-----Elements de compétence-----*/
-#Domaine {
+#Competence {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -11,7 +11,7 @@
 	height: auto;
 }
 
-#DomaineBox {
+.Competence_Box {
 	/* Placement */
 	display: flex;
 	flex-direction: column;
@@ -24,7 +24,7 @@
 	border-color: var(--couleur-fonce);
 }
 
-#DomaineTextTitle {
+.Competence_Title {
 	/* Placement */
 	display: flex;
 	justify-content: left;
@@ -40,6 +40,20 @@
 	color: #6D9C86;
 }
 
-#DomaineTextText {
+.Competence_Text {
 	color: var(--couleur-text);
+}
+
+@media screen and (max-width : 1094px) {
+	.Competence_Box {
+		margin-left: 2%;
+	}
+
+	.Competence_Title {
+		font-size: 280%;
+	}
+	
+	.Competence_Text {
+		font-size: 200%;
+	}
 }

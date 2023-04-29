@@ -1,5 +1,5 @@
 /*-----Elements de Projet-----*/
-.Projet {
+projet {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -11,7 +11,21 @@
 	height: auto;
 }
 
-#text-container {
+#Bouton_Projet{
+	/* Placement */
+	display: flex;
+	width: auto;
+	margin-left: 5%;
+	margin-right: 15%;
+	align-items: center;
+
+
+	/*Taille*/
+	height: auto;
+	width: auto;
+}
+
+#Box_Projet{
 	display: flex;
 	text-align: center;
 	padding: 20px;
@@ -25,7 +39,7 @@
 	border-radius: 10px;
 }
 
-#texte {
+#Box_Texte_Projet {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
@@ -33,7 +47,7 @@
 	margin-right: 10%;
 }
 
-#title {
+#Titre_Projet {
 	/* Placement */
 	display: flex;
 
@@ -59,15 +73,7 @@
 
 }
 
-#image {
-	height: auto;
-	width: 50%;
-	margin-top: 1%;
-	margin-left: auto;
-	margin-right: 1%;
-}
-
-#text {
+#Texte_Projet {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
@@ -79,28 +85,23 @@
 	line-height: 18px;
 }
 
-#link {
+#Lien_Projet {
 	display: flex;
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
-.Boutton-text {
-	/* Placement */
-	display: flex;
-	width: auto;
-	margin-left: 5%;
-	margin-right: 15%;
-	align-items: center;
 
-
-	/*Taille*/
+#Image_Projet {
 	height: auto;
-	width: auto;
+	width: 50%;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: 1%;
 }
 
 /*-----Boutton projet-----*/
-button2 {
+#Bouton_Projet button {
 	position: relative;
 	padding: 2%;
 	height: auto;
@@ -116,18 +117,18 @@ button2 {
 	color: var(--couleur-text);
 }
 
-button2:hover {
+#Bouton_Projet button:hover {
 	background-color: #6D9C86;
 	color: #EDEEF0;
 }
 
-button2:hover:after {
+#Bouton_Projet button:hover:after {
 	background-color: #6D9C86;
 	color: #EDEEF0;
 }
 
 /*-----Boutton en savoir plus-----*/
-button1 {
+#Lien_Projet button{
 	position: relative;
 	font-size: 80%;
 	padding: 2%;
@@ -145,7 +146,7 @@ button1 {
 	box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
 }
 
-button1::before {
+#Lien_Projet button::before {
 	position: absolute;
 	content: '';
 	height: 0;
@@ -158,12 +159,18 @@ button1::before {
 	transition: 0.3s;
 }
 
-button1:hover::before {
+#Lien_Projet button:hover::before {
 	width: 1.6em;
 	height: 1.6em;
 }
 
-button1:active {
+#Lien_Projet button:active {
 	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 	transform: translate(0.1em, 0.1em);
+}
+
+@media screen and (max-width : 1094px) {
+	projet {
+		display: none;
+	}
 }
