@@ -1,5 +1,5 @@
 /*-----Elements de compétence-----*/
-#Competence {
+competence {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -50,10 +50,10 @@
 	}
 
 	.Competence_Title {
-		font-size: 280%;
+		font-size: 400%;
 	}
 	
 	.Competence_Text {
-		font-size: 200%;
+		font-size: 100%;
 	}
 }
