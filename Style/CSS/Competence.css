@@ -1,0 +1,59 @@
+/*-----Elements de compétence-----*/
+competence {
+	/* Placement */
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 5%;
+	padding: 2%;
+
+	/*Taille*/
+	height: auto;
+}
+
+.Competence_Box {
+	/* Placement */
+	display: flex;
+	flex-direction: column;
+	margin-left: 25%;
+	padding: 2%;
+
+	/*Taille*/
+	height: auto;
+	border-top: 0.5px solid;
+	border-color: var(--couleur-fonce);
+}
+
+.Competence_Title {
+	/* Placement */
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	margin-bottom: 1%;
+	/*Taille*/
+	width: 100%;
+	height: auto;
+
+	/* Police */
+	font-size: 160%;
+	font-weight: 800;
+	color: #6D9C86;
+}
+
+.Competence_Text {
+	color: var(--couleur-text);
+}
+
+@media screen and (max-width : 1094px) {
+	.Competence_Box {
+		margin-left: 2%;
+	}
+
+	.Competence_Title {
+		font-size: 300%;
+	}
+	
+	.Competence_Text {
+		font-size: 100%;
+	}
+}
