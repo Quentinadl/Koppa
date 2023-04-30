@@ -2,11 +2,13 @@ var maintenant = new Date();
 var heure = maintenant.getHours();
 
 if (heure >= 20 || heure < 6) {
-  document.getElementById("Image_Vitrine").src = "Images/Man_Presentation_nuit.png";
+  document.getElementById("ImageShowcase").src = "Images/Man_Presentation_nuit.png";
 } else {
-  document.getElementById("Image_Vitrine").src = "Images/Man_Presentation_jour.png";
+  document.getElementById("ImageShowcase").src = "Images/Man_Presentation_jour.png";
 }
+image.src = imageSource;
 
+<<<<<<< HEAD
 
 
 
@@ -54,3 +56,5 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 };
  */
+=======
+>>>>>>> parent of a3e583e (MAJ téléphone)

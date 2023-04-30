@@ -1,5 +1,5 @@
 /*-----Elements de vitrine-----*/
-vitrine{
+.Showcase {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -8,18 +8,22 @@ vitrine{
 	height: 600px;
 }
 
-#Image_Vitrine {
+#ImageShowcase {
 	/* Placement */
 	position: absolute;
 
 	/*Taille*/
 	height: 335px;
 	right: 10%;
-	z-index: 2;
+	z-index: 9;
 	top: 250px;
 }
 
-#Texte_Vitrine {
+.ImageShowcase2 {
+	display: none;
+}
+
+#TextShowcase {
 	/* Placement */
 	position: absolute;
 
@@ -43,7 +47,7 @@ vitrine{
 }
 
 /*-----Elements de Présentation-----*/
-presentation {
+.Presentation {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -54,7 +58,7 @@ presentation {
 	height: auto;
 }
 
-title {
+#Title {
 	/* Placement */
 	display: flex;
 	color: var(--couleur-fonce);
@@ -76,7 +80,7 @@ title {
 	text-align: left;
 }
 
-#Texte_Presentation {
+#PresentationText {
 	/* Placement */
 	display: flex;
 	justify-content: left;
@@ -96,7 +100,7 @@ title {
 }
 
 /*-----Bouton Contact-----*/
-presentation a {
+button3 {
 	align-items: center;
 	background-color: transparent;
 	color: #6D9C86;
@@ -114,9 +118,10 @@ presentation a {
 	margin-top: 10px;
 	margin-bottom: -40px;
 	margin-left: 50px;
-}
+
+  }
   
-presentation a:before {
+button3:before {
 	background-color: var(--couleur-fonce);
 	content: "";
 	display: inline-block;
@@ -124,49 +129,14 @@ presentation a:before {
 	margin-right: 10px;
 	transition: all .42s cubic-bezier(.25,.8,.25,1);
 	width: 0;
-}
+
+  }
   
-presentation a:hover:before {
+button3:hover:before {
 	background-color: var(--couleur-fonce);
 	width: 3rem;
-}
+  }
 
-presentation a:hover{
+button3:hover{
 	color: var(--couleur-fonce);
-}
-
-/*-----Elements de responsivité-----*/
-
-
-  @media screen and (max-width : 1094px) {
-	vitrine{
-		margin-top :100px;
-	}
-	#Texte_Vitrine {
-		margin-top: 100px;
-	}
-	#Image_Vitrine {
-		margin-top: 100px;
-	}
-
-
-	presentation{
-		flex-direction: column;
-	}
-
-	title {
-		font-size: 400%;
-	}
-
-	#Texte_Presentation {
-		margin-top: 40px;
-		width: 90%;
-		font-size: 100%;
-		text-align: center;
-		line-height: 50px;
-	}
-
-	presentation a{
-		display: none ;
-	}
   }

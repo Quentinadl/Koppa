@@ -1,18 +1,18 @@
 /* -----Affichage des Projets----- */
 
 
-const Cyber = document.querySelector('#Bouton_Cyber');
-const Programmes = document.querySelector('#Bouton_Programmes');
-const Conte = document.querySelector('#Bouton_Conte');
-const Certifications = document.querySelector('#Bouton_Certifications');
-const frigs = document.querySelector('#Bouton_Design');
-const design = document.querySelector('#Bouton_Frigs');
+const Cyber = document.querySelector('#Cyber');
+const Programmes = document.querySelector('#Programmes');
+const Conte = document.querySelector('#Conte');
+const Certifications = document.querySelector('#Certifications');
+const frigs = document.querySelector('#frigs');
+const design = document.querySelector('#design');
 
 
-const title = document.querySelector('#Titre_Projet');
-const text = document.querySelector('#Texte_Projet');
-const link = document.querySelector('#Lien_Projet');
-const image = document.querySelector('#Image_Projet');
+const title = document.querySelector('#title');
+const text = document.querySelector('#text');
+const link = document.querySelector('#link');
+const image = document.querySelector('#image');
 
 Cyber.addEventListener('click', function () {
   title.innerHTML = "Rapport cyber 2022";

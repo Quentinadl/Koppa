@@ -11,7 +11,7 @@ footer {
 	width: 100%;
 }
 
-#Box_Footer {
+#footer-container {
 	display: flex;
 	justify-content: space-between;
 	margin-left: auto;
@@ -22,14 +22,14 @@ footer {
 }
 
 
-#Box_Logos{
+.logos{
 	width: auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-#Box_Logos img{
+.logos img{
 	display: flex;
 	width: 40%;
 	height: 40%;
@@ -37,26 +37,51 @@ footer {
 	padding-left: 20%;
 }
 
-.Box_Ecole{
+.ecole{
 	display: flex;
 	align-items: center;
 	padding:2%;
 	margin-left: 4%;
 }
 
-.Box_Ecole img{
+.ecole img{
 	display: flex;
 	width: 70%;
 	height: auto;
 }
 
-.Texte_Copyright {
+.copyright {
+	text-align: center;
+	margin: auto;
+}
+
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 300px;
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	background-color: #222222;
+	color: white;
+	border-radius: 5px;
+}
+
+.contact-form button {
+	background-color: #EDEEF0;
+	color: #333333;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.text-center {
   text-align: center;
 }
 
-@media screen and (max-width : 1094px) {
-
-	footer{
-		display:none;
-	}
-}

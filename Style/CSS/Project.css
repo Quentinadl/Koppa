@@ -1,5 +1,5 @@
 /*-----Elements de Projet-----*/
-projet {
+.Projet {
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -11,6 +11,7 @@ projet {
 	height: auto;
 }
 
+<<<<<<< HEAD
 #Cartes_Projets{
 	display: none;
 }
@@ -30,6 +31,9 @@ projet {
 }
 
 #Box_Projet{
+=======
+#text-container {
+>>>>>>> parent of a3e583e (MAJ téléphone)
 	display: flex;
 	text-align: center;
 	padding: 20px;
@@ -43,7 +47,7 @@ projet {
 	border-radius: 10px;
 }
 
-#Box_Texte_Projet {
+#texte {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
@@ -51,7 +55,7 @@ projet {
 	margin-right: 10%;
 }
 
-#Titre_Projet {
+#title {
 	/* Placement */
 	display: flex;
 
@@ -77,7 +81,15 @@ projet {
 
 }
 
-#Texte_Projet {
+#image {
+	height: auto;
+	width: 50%;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: 1%;
+}
+
+#text {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
@@ -89,23 +101,28 @@ projet {
 	line-height: 18px;
 }
 
-#Lien_Projet {
+#link {
 	display: flex;
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
+.Boutton-text {
+	/* Placement */
+	display: flex;
+	width: auto;
+	margin-left: 5%;
+	margin-right: 15%;
+	align-items: center;
 
-#Image_Projet {
+
+	/*Taille*/
 	height: auto;
-	width: 50%;
-	margin-top: 1%;
-	margin-left: auto;
-	margin-right: 1%;
+	width: auto;
 }
 
 /*-----Boutton projet-----*/
-#Bouton_Projet button {
+button2 {
 	position: relative;
 	padding: 2%;
 	height: auto;
@@ -121,18 +138,18 @@ projet {
 	color: var(--couleur-text);
 }
 
-#Bouton_Projet button:hover {
+button2:hover {
 	background-color: #6D9C86;
 	color: #EDEEF0;
 }
 
-#Bouton_Projet button:hover:after {
+button2:hover:after {
 	background-color: #6D9C86;
 	color: #EDEEF0;
 }
 
 /*-----Boutton en savoir plus-----*/
-#Lien_Projet button{
+button1 {
 	position: relative;
 	font-size: 80%;
 	padding: 2%;
@@ -150,7 +167,7 @@ projet {
 	box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
 }
 
-#Lien_Projet button::before {
+button1::before {
 	position: absolute;
 	content: '';
 	height: 0;
@@ -165,19 +182,20 @@ projet {
 
 }
 
-#Lien_Projet button:hover::before {
+button1:hover::before {
 	width: 1.6em;
 	height: 1.6em;
 	text-decoration: none;
 
 }
 
-#Lien_Projet button:active {
+button1:active {
 	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 	transform: translate(0.1em, 0.1em);
 	text-decoration: none;
 
 }
+<<<<<<< HEAD
 
 @media screen and (max-width : 1094px) {
 	projet {
@@ -295,3 +313,5 @@ projet {
 	
 	  
 }
+=======
+>>>>>>> parent of a3e583e (MAJ téléphone)
