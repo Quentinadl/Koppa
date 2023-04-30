@@ -11,6 +11,10 @@ projet {
 	height: auto;
 }
 
+#Cartes_Projets{
+	display: none;
+}
+
 #Bouton_Projet{
 	/* Placement */
 	display: flex;
@@ -157,20 +161,137 @@ projet {
 	border-radius: 0 0 0.5em 0;
 	box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
 	transition: 0.3s;
+	text-decoration: none;
+
 }
 
 #Lien_Projet button:hover::before {
 	width: 1.6em;
 	height: 1.6em;
+	text-decoration: none;
+
 }
 
 #Lien_Projet button:active {
 	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 	transform: translate(0.1em, 0.1em);
+	text-decoration: none;
+
 }
 
 @media screen and (max-width : 1094px) {
 	projet {
+		margin: 0%;
+		padding: 2%;
+	}
+	#Bouton_Projet{
 		display: none;
 	}
+	#Box_Projet{
+		display:none;
+	}
+	#Cartes_Projets{
+		display: flex;
+	}
+	#Cartes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: auto;
+	 }
+	  
+	  .Carte_Projets {
+		display: none;
+		flex-direction: initial;
+	  }
+	  
+	  .Carte_Projets.active {
+		display: flex;
+		height: auto;
+		width: auto;
+	  }
+	  
+	  .Carte_Projets-contenu {
+		text-align: center;
+		border: 0.5px solid;
+		border-color: var(--couleur-fonce);
+		border-radius: 10px;
+	  }
+	  
+	  .Carte_Projets-contenu img {
+		max-width: 100%;
+		height: auto;
+	  }
+	  
+	  .boutons {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 1em;
+		border: none; 
+	  }
+	  
+	  .bouton-gauche,
+	  .bouton-droit {
+		padding: 0.5em 1em;
+		background-color: #333;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+	  }
+	  
+	  .bouton-gauche:hover,
+	  .bouton-droit:hover {
+		background-color: #555;
+	  }
+
+	  #Titre_Projet {
+		font-size: 250%;
+	}
+
+	#Lien_Projet button{
+		margin-left: 50%;
+		margin-top: 0px;
+
+
+	}
+	
+	#Texte_Projet {
+		font-size: 200%;
+		line-height: 150%;
+		padding: 5%;
+	}
+	
+	#Lien_Projet {
+		font-size: 50px;
+	}
+	
+	#Image_Projet {
+		width: 90%;
+	}
+
+	.arrowg::before {
+		content: "";
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+		border-right: 50px solid var(--couleur-text);
+		border-left:0px solid transparent;
+		padding-left: 5px;
+	  }
+
+	  .arrowd::before {
+		content: "";
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+		border-right: 0px solid transparent;
+		border-left:50px solid var(--couleur-text);
+		margin-right: 0px;
+	  }
+	
+	  
 }

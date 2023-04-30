@@ -43,7 +43,7 @@ sidebarLinks.addEventListener('click', () => {
 
 
 
-var prevScrollpos = window.pageYOffset;
+/* var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -53,3 +53,4 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
+ */
