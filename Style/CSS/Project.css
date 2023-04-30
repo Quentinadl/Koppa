@@ -12,10 +12,13 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Cartes_Projets{
 	display: none;
 }
 
+=======
+>>>>>>> parent of 1caa45b (projet telephonne)
 #Bouton_Projet{
 	/* Placement */
 	display: flex;
@@ -178,33 +181,24 @@ button1::before {
 	border-radius: 0 0 0.5em 0;
 	box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
 	transition: 0.3s;
-	text-decoration: none;
-
 }
 
 button1:hover::before {
 	width: 1.6em;
 	height: 1.6em;
-	text-decoration: none;
-
 }
 
 button1:active {
 	box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
 	transform: translate(0.1em, 0.1em);
-	text-decoration: none;
-
 }
 <<<<<<< HEAD
 
 @media screen and (max-width : 1094px) {
 	projet {
-		margin: 0%;
-		padding: 2%;
-	}
-	#Bouton_Projet{
 		display: none;
 	}
+<<<<<<< HEAD
 	#Box_Projet{
 		display:none;
 	}
@@ -315,3 +309,6 @@ button1:active {
 }
 =======
 >>>>>>> parent of a3e583e (MAJ téléphone)
+=======
+}
+>>>>>>> parent of 1caa45b (projet telephonne)

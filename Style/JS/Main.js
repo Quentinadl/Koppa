@@ -45,7 +45,7 @@ sidebarLinks.addEventListener('click', () => {
 
 
 
-/* var prevScrollpos = window.pageYOffset;
+var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -55,6 +55,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
+<<<<<<< HEAD
  */
 =======
 >>>>>>> parent of a3e583e (MAJ téléphone)
+=======
+>>>>>>> parent of 1caa45b (projet telephonne)
