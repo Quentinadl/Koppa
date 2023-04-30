@@ -331,7 +331,7 @@ input:checked+.slider:before {
 		border-bottom: 2px solid;
 		border-color: white;
 
-		margin-top: 180%;
+		margin-top: 200%;
 	}
 	
 	#logos_sidebar img{
