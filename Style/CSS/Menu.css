@@ -1,9 +1,4 @@
-/* -----Header----- */
-#contact {
-	display: none;
-}
-
-/*-----Menu-----*/
+	/*-----Menu sur ordinateur -----*/
 .Menu {
 	display: flex;
 	justify-content: center;
@@ -17,7 +12,7 @@
 	border-color: #000;
 }
 
-header {
+#header {
 	/* Position */
 	display: flex;
 	justify-content: space-between;
@@ -36,7 +31,7 @@ header {
 	display:none;
 }
 
-#header-a {
+.header-a {
 	color:var(--couleur-fonce);
 	font-family: 'Inter';
 	text-decoration: none;
@@ -47,9 +42,10 @@ header {
 	padding: 20px;
 	border-radius: 7px;
 	transition: 0.2s;
+
 }
 
-#header-a:hover {
+.header-a:hover {
 	color: var(--couleur-verte);
 	transform: translateY(-5px);
 	transition: 0.2s;
@@ -141,10 +137,6 @@ input:checked+.slider {
 input:checked+.slider:before {
 	transform: translateX(100%);
 	box-shadow: inset 15px -4px 0px 15px #333333;
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -161,11 +153,12 @@ input:checked+.slider:before {
 	justify-content: center;
 	z-index: 10;
 	background: linear-gradient(180deg, var(--couleur-fond) 0%, var(--couleur-fond) 50%, rgba(237, 238, 240, 0) 63.02%);
-  }
+}
 
 #header-tel.hide {
 	top: -300px;
-	}
+	transition: top 0.3s;
+}
 
 .Logo_tel{
 	height: 153.26658630371094px;
@@ -338,7 +331,7 @@ input:checked+.slider:before {
 		border-bottom: 2px solid;
 		border-color: white;
 
-		margin-top: 135%;
+		margin-top: 200%;
 	}
 	
 	#logos_sidebar img{
@@ -348,7 +341,3 @@ input:checked+.slider:before {
 }
 
   
->>>>>>> parent of 6e27d3b (maj téléphone)
-=======
-}
->>>>>>> parent of a3e583e (MAJ téléphone)

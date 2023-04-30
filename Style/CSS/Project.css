@@ -230,9 +230,7 @@ button1:active {
 	  
 	  .Carte_Projets-contenu {
 		text-align: center;
-		border: 0.5px solid;
-		border-color: var(--couleur-fonce);
-		border-radius: 10px;
+		border: none;
 	  }
 	  
 	  .Carte_Projets-contenu img {
@@ -263,6 +261,8 @@ button1:active {
 
 	  #Titre_Projet {
 		font-size: 250%;
+		color:  var(--couleur-verte);
+		margin-bottom: 2%;
 	}
 
 	#Lien_Projet button{
