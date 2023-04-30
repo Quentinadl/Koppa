@@ -1,5 +1,9 @@
 /*-----Elements de compétence-----*/
+<<<<<<< HEAD
 #Domaine {
+=======
+#Competence {
+>>>>>>> parent of 6e27d3b (maj téléphone)
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -43,3 +47,20 @@
 #DomaineTextText {
 	color: var(--couleur-text);
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width : 1094px) {
+	.Competence_Box {
+		margin-left: 2%;
+	}
+
+	.Competence_Title {
+		font-size: 280%;
+	}
+	
+	.Competence_Text {
+		font-size: 200%;
+	}
+}
+>>>>>>> parent of 6e27d3b (maj téléphone)

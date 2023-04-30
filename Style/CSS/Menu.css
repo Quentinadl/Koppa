@@ -141,4 +141,210 @@ input:checked+.slider {
 input:checked+.slider:before {
 	transform: translateX(100%);
 	box-shadow: inset 15px -4px 0px 15px #333333;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+
+/*-----Menu sur téléphone-----*/
+
+#header-tel {
+	position: fixed;
+	top: 0;
+	width: 100%;
+    height: 250px;
+	transition: top 0.3s;
+	justify-content: center;
+	z-index: 10;
+	background: linear-gradient(180deg, var(--couleur-fond) 0%, var(--couleur-fond) 50%, rgba(237, 238, 240, 0) 63.02%);
+  }
+
+#header-tel.hide {
+	top: -300px;
+	}
+
+.Logo_tel{
+	height: 153.26658630371094px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+#sidebar {
+	position: fixed;
+	top: 0px;
+	left: -550px;
+	width: 550px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.833);
+	z-index: 11;
+	transition: left 0.3s ease-in-out;
+  }
+
+
+#menu-button {
+	position: fixed;
+	top: 3%;
+	left: 5%;
+	width: 50px;
+	height: 50px;
+	z-index: 13;
+}
+
+#checkbox {
+	display: none;
+  }
+  
+  .toggle {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	transition-duration: .5s;
+  }
+  
+  .bars {
+	width: 100%;
+	height: 4px;
+	background-color: var(--couleur-verte);
+	border-radius: 4px;
+  }
+  
+  #bar2 {
+	transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+	width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+	position: absolute;
+	transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+	transform: scaleX(0);
+	transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+	width: 100%;
+	transform: rotate(45deg);
+	transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+	width: 100%;
+	transform: rotate(-45deg);
+	transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle {
+	transition-duration: .5s;
+	transform: rotate(180deg);
+  }
+
+
+
+
+  
+  
+  #menu-button img {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	cursor: pointer;
+  }
+  
+  #content {
+	padding-top: 50px;
+  }
+  
+
+
+  #sidebar.active {
+	left: 0;
+	transition: left 0.3s ease-in-out;
+  }
+
+
+  #close-button img {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	cursor: pointer;
+  }
+  
+  #sidebar ul {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+  }
+  
+  #sidebar li {
+	margin-bottom: 10px;
+	font-family: 'Inter';
+	text-decoration: none;
+	font-size: 230%;
+	display: block;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: auto;
+	transition: 0.2s;
+  }
+  
+  #sidebar a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	transition: var(--couleur-verte) 0.3s ease-in-out;
+  }
+  
+/*-----Elements de responsivité-----*/
+
+
+@media screen and (max-width : 1094px) {
+	#header{
+		display: none;
+	}
+
+	#header-tel{
+		display : flex;
+	}
+
+	#logos_sidebar{
+		width: auto;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		margin-left: 50px;
+		margin-right: 50px;
+
+		border-bottom: 2px solid;
+		border-color: white;
+
+		margin-top: 135%;
+	}
+	
+	#logos_sidebar img{
+		width: 80px;
+		height: auto;
+	}
+}
+
+  
+>>>>>>> parent of 6e27d3b (maj téléphone)
