@@ -1,9 +1,13 @@
 /*-----Elements de compétence-----*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Domaine {
 =======
 #Competence {
 >>>>>>> parent of 6e27d3b (maj téléphone)
+=======
+#Domaine {
+>>>>>>> parent of a3e583e (MAJ téléphone)
 	/* Placement */
 	display: flex;
 	justify-content: space-between;
@@ -48,6 +52,7 @@
 	color: var(--couleur-text);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 @media screen and (max-width : 1094px) {
@@ -64,3 +69,5 @@
 	}
 }
 >>>>>>> parent of 6e27d3b (maj téléphone)
+=======
+>>>>>>> parent of a3e583e (MAJ téléphone)

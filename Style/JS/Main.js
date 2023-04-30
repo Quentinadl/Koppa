@@ -9,6 +9,7 @@ if (heure >= 20 || heure < 6) {
 image.src = imageSource;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -61,3 +62,5 @@ window.onscroll = function() {
 >>>>>>> parent of a3e583e (MAJ téléphone)
 =======
 >>>>>>> parent of 1caa45b (projet telephonne)
+=======
+>>>>>>> parent of a3e583e (MAJ téléphone)

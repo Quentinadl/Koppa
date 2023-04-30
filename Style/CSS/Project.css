@@ -13,6 +13,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Cartes_Projets{
 	display: none;
 }
@@ -34,6 +35,9 @@
 }
 
 #Box_Projet{
+=======
+#text-container {
+>>>>>>> parent of a3e583e (MAJ téléphone)
 =======
 #text-container {
 >>>>>>> parent of a3e583e (MAJ téléphone)
@@ -193,6 +197,7 @@ button1:active {
 	transform: translate(0.1em, 0.1em);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 @media screen and (max-width : 1094px) {
 	projet {
@@ -312,3 +317,5 @@ button1:active {
 =======
 }
 >>>>>>> parent of 1caa45b (projet telephonne)
+=======
+>>>>>>> parent of a3e583e (MAJ téléphone)

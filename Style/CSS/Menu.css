@@ -142,6 +142,7 @@ input:checked+.slider:before {
 	transform: translateX(100%);
 	box-shadow: inset 15px -4px 0px 15px #333333;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -348,3 +349,6 @@ input:checked+.slider:before {
 
   
 >>>>>>> parent of 6e27d3b (maj téléphone)
+=======
+}
+>>>>>>> parent of a3e583e (MAJ téléphone)
