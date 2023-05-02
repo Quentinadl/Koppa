@@ -34,7 +34,7 @@ vitrine{
 	font-family: 'Arial';
 	font-style: bold;
 	font-weight: 800;
-	font-size: 1000%;
+	font-size: 170px;
 	line-height: 200px;
 	color: var(--couleur-gros-texte);
 
@@ -70,7 +70,7 @@ title {
 
 	/* Police */
 	font-family: 'Arial';
-	font-size: 250%;
+	font-size: 40px	;
 	font-weight: 800;
 	line-height: auto;
 	text-align: left;
@@ -88,7 +88,7 @@ title {
 	height: auto;
 
 	/* Police */
-	font-size: 120%;
+	font-size: 19px;
 	font-weight: 600;
 	line-height: 130%;
 	text-align: left;
@@ -103,7 +103,6 @@ presentation a {
 	cursor: pointer;
 	display: flex;
 	font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	font-size: 1.3rem;
 	font-weight: 700;
 	line-height: 1.5;
 	text-decoration: none;
@@ -155,13 +154,13 @@ presentation a:hover{
 	}
 
 	title {
-		font-size: 400%;
+		font-size: 60px;
 	}
 
 	#Texte_Presentation {
 		margin-top: 40px;
 		width: 90%;
-		font-size: 100%;
+		font-size: 30px;
 		text-align: center;
 		line-height: 50px;
 	}

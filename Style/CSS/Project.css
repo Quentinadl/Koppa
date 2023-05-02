@@ -66,7 +66,7 @@ projet {
 
 	/* Police */
 	font-family: 'Arial';
-	font-size: 200%;
+	font-size: 30px;
 	font-weight: 800;
 	line-height: auto;
 	text-align: left;
@@ -134,7 +134,7 @@ projet {
 /*-----Boutton en savoir plus-----*/
 #Lien_Projet button{
 	position: relative;
-	font-size: 80%;
+	font-size: 16px;
 	padding: 2%;
 	margin-left: 5%;
 	margin-top: 5%;
@@ -243,7 +243,7 @@ projet {
 	  }
 
 	  #Titre_Projet {
-		font-size: 250%;
+		font-size: 40px;
 		color:  var(--couleur-verte);
 		margin-bottom: 2%;
 	}
@@ -256,7 +256,7 @@ projet {
 	}
 	
 	#Texte_Projet {
-		font-size: 200%;
+		font-size: 30px;
 		line-height: 150%;
 		padding: 5%;
 	}

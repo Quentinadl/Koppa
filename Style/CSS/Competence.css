@@ -35,13 +35,14 @@ competence {
 	height: auto;
 
 	/* Police */
-	font-size: 160%;
+	font-size: 25px;
 	font-weight: 800;
 	color: #6D9C86;
 }
 
 .Competence_Text {
 	color: var(--couleur-text);
+	font-size: 16px;
 }
 
 @media screen and (max-width : 1094px) {
@@ -50,10 +51,10 @@ competence {
 	}
 
 	.Competence_Title {
-		font-size: 300%;
+		font-size: 40px;
 	}
 	
 	.Competence_Text {
-		font-size: 100%;
+		font-size: 25px;
 	}
 }

@@ -35,7 +35,7 @@
 	color:var(--couleur-fonce);
 	font-family: 'Inter';
 	text-decoration: none;
-	font-size: 120%;
+	font-size: 20px;
 	display: block;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -291,7 +291,7 @@ input:checked+.slider:before {
 	margin-bottom: 10px;
 	font-family: 'Inter';
 	text-decoration: none;
-	font-size: 230%;
+	font-size: 40px;
 	display: block;
 	margin-left: 50px;
 	margin-top: 15px;
