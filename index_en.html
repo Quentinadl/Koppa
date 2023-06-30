@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head> <!--Contiens toute les informations d'en-tête-->
+<head>
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" type="text/css" href="Style/CSS/Main.css">
@@ -11,7 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="Style/CSS/Competence.css">
 	<link rel="stylesheet" type="text/css" href="Style/CSS/Project.css">
 	<link rel="stylesheet" type="text/css" href="Style/CSS/Footer.css">
-	<link rel="stylesheet" type="text/css" href="Style/CSS/Responsivity.css">
 
 	<title>Koppa ~ Quentin Adeline</title>
 	<link rel="icon" type="Images/Logo_Koppa.png" sizes="16x16" href="Images/Logo_Koppa_Onglet.png">
@@ -20,175 +19,276 @@
 <header id="header">
 	<a href="index.html"> <img src="Images/Logo_Koppa.png" class="Logo" /></a>
 	<section class="Menu">
-		<a href="#1" id="header-a">About me</a>
-		<a href="#2" id="header-a">My éxperiences</a>
-		<a href="#3" id="header-a">My skills</a>
-		<a href="#4" id="header-a">My projects</a>
-		<a href="index.html" id="header-ab">Français</a>
+		<a href="#1" class="header-a">À propos</a>
+		<a href="#2" class="header-a">Mes expériences</a>
+		<a href="#3" class="header-a">Mes compétences</a>
+		<a href="#4" class="header-a">Mes projets</a>
+		<a id="header-tel">Koppa</a>
+		<a href="index.html" id="header-ab">French</a>
 	</section>
-	<a><label id="switch" class="switch">
+
+	<a>
+		<label id="switch" class="switch">
 			<input type="checkbox">
 			<span class="slider"></span>
-		</label></a>
+		</label>
+	</a>
 </header>
 
-<body id="body">
-
-	<div id="contact">
-		<a  target="_blank" style="text-decoration: none;"> 
-			<a href="mailto:quentin.adeline18@gmail.com?subject=[KOPPA] Demande d'information !&body=-----INFORMATION CONTACT-----%0ANom : %0APrénom : %0AAdresse mail : %0ANom de l'entreprie : %0AObjet : %0A%0A -------------MESSAGE------------%0A%0A"> <img src="Images/Contact.png" class="Logo" /></a>
+<header id="header-tel">
+	<div id="header-tel-logo">
+		<a href="index.html"> <img src="Images/Logo_Koppa_tel.png" class="Logo_tel" /></a>
 	</div>
+	<div id="menu-button">
+		<input type="checkbox" id="checkbox">
+		<label for="checkbox" class="toggle">
+			<div class="bars" 	id="bar1"></div>
+			<div class="bars" id="bar2"></div>
+			<div class="bars" id="bar3"></div>
+		</label>
+	</div>	  
+	<nav id="sidebar">
+		<ul>
+			<li style="margin-top: 55px; text-align: center; font-weight: 800; color: white; padding-left: 20px;">By Quentin ADELINE </li>
+		  	<li><a href="#1" style="margin-top: 100px;">À propos</a></li>
+		  	<li><a href="#2">Mes expériences</a></li>
+		  	<li><a href="#3">Mes compétences</a></li>
+		  	<li><a href="#4">Mes projets</a></li>
+		  	<li><a href="mailto:quentin.adeline18@gmail.com?subject=[KOPPA] Demande d'information !&body=-----INFORMATION CONTACT-----%0ANom : %0APrénom : %0AAdresse mail : %0ANom de l'entreprie : %0AObjet : %0A%0A -------------MESSAGE------------%0A%0A" target="_blank" style="color: var(--couleur-verte);"">Me contacter </a></li>
+		</ul>
+		<div id="logos_sidebar" >
+			<a href="https://github.com/Quentinadl"><img src="Images/Logo_GitHub_blanc.png" ></a>
+			<a href="https://www.linkedin.com/in/quentin-adl/"><img src="Images/Logo_LinkedIn_blanc.png" ></a>
+			<a href="https://www.instagram.com/_quentin_adl_/?next=%2F"><img src="Images/Logo_Instagram_blanc.png" ></a>
+		</div>
+		
+		<p class="Texte_Copyright" style="color: white;">&copy; Quentin ADELINE -  Tout droit réservé</p>
 
-	<section class="Showcase">
-		<div id="TextShowcase">Quentin<br />ADELINE</div>
-		<a><img id="ImageShowcase" /></a>
-	</section>
+	  </nav>  
+</header>
 
-	<a><img src="Images/Presentation_tel.png" class="ImageShowcase2" /></a>
+
+<body>
+	<vitrine>
+		<div id="Texte_Vitrine">Quentin<br/>ADELINE</div>
+		<a><img id="Image_Vitrine" /></a>
+	</vitrine>
 
 	<line id="1"></line>
 
-	<section class="Presentation">
-		<div id="Title">Who am I?</div>
-		<div id="PresentationText">As a student in engineering school, I have a strong interest in cyber security. I am also passionate about all things visual, especially design and photography. This allows me to have a creative and innovative approach in my projects, as well as an ability to communicate in a visual way. That's why I'm launching myself as a <i>Freelance Web Designer</i> in order to put my creativity to work for my clients.
-			<a href="mailto:quentin.adeline18@gmail.com?subject=[KOPPA] Request for information!&body=-----INFORMATION CONTACT-----%0ANurname : %0APurname : %0Amail address : %0ANurname of company : %0ASubject : %0A%0A -------------MESSAGE------------%0A%0A" target="_blank" style="text-decoration: none;"> 
-				<button3>
-				Contact me!
-			  </button3> </a>
+	<presentation>
+		<title>Qui suis-je ?</title>
+		<div id="Texte_Presentation">Etudiant en école d'ingénieur, je porte un fort intérêt pour la cybersécurité. Je suis également passionné par tout ce qui est visuel, notamment le design et la photographie. Cela me permet d'avoir une approche créative et innovante dans mes projets, ainsi qu'une capacité à communiquer de manière visuelle. C'est pour cela que je me lance en tant que Freelance Web Designer afin de mettre ma créativité au services de mes clients.
+			<a href="mailto:quentin.adeline18@gmail.com?subject=[KOPPA] Demande d'information !&body=-----INFORMATION CONTACT-----%0ANom : %0APrénom : %0AAdresse mail : %0ANom de l'entreprie : %0AObjet : %0A%0A -------------MESSAGE------------%0A%0A" target="_blank" style="text-decoration: none;">  Me contacter! </a>
 		</div>
-	</section>
+	</presentation>
 
 	<line id="2"></line>
 
-	<section class="Comptétence">
-		<div id="Title" style="padding-left: 8%;">My experiences</div>
-		<div class="repos">
+	<experience>
+		<title style="padding-left: 8%;">Mes expériences pro</title>
+		<div id="Cartes">
 
-			<a href="https://sepefrei.fr/" target="_blank" id="repo_img">
-				<img src="Images/Exp_Sep.png" class="img_repo" />
+			<a href="https://sepefrei.fr/" target="_blank" class="Carte_Image">
+				<img src="Images/Exp_Sep.png"/>
 			</a>
 
-			<div id="repo">
-				<div id="RepoTitle">Sales Manager and Project Manager</div>
-				<div id="DescriptRepo">This position allows me to lead my team's prospecting, improve the client portfolio and contribute to the achievement of the sales objectives of the mandate. My goals are to expand the sales opportunities of the Junior-Enterprise and to strengthen the relationships with the clients.</div>
-				<div id="vide"></div>
-				<div id="LienRepo">Dates: Since September 2022</div>
+			<div class="Carte">
+				<div class="Titre_Carte"> Responsable commercial et Chargé d’Etudes </div>
+				<div class="Texte_Carte"> Ce poste me permet de diriger la prospection de mon équipe, d'améliorer le porte-feuille client et de contribuer à atteindre les objectifs commerciaux du mandat. J'ai pour objectifs d'élargir les opportunités de vente de la Junior-Entreprise et de renforcer les relations avec les clients.</div>
+				<div class="Vide_Carte"></div>
+				<div class="Date_Carte">Dates: Depuis Septembre 2022</div>
 			</div>
 
-			<a href="https://www.horusdefense.com/" target="_blank" id="repo_img">
-				<img src="Images/Exp_HorusDefense.png" class="img_repo" />
+			<a href="https://www.horusdefense.com/" target="_blank" class="Carte_Image">
+				<img src="Images/Exp_HorusDefense.png"/>
 			</a>
 
-			<div id="repo">
-				<div id="RepoTitle"> Freelance - Business Developper </div>
-				<div id="DescriptRepo"> Durant cette période, j'ai réalisé une veille des cyber attaques mené en 2022 et effectué des recherches de prospects. J'ai participé à des rendez-vous clients et ai eu l'opportunité de contribuer à la mise en place de la stratégie commerciale.</div>
-				<div id="vide"></div>
-				<div id="LienRepo">Dates: Avril 2023</div>
+			<div class="Carte">
+				<div class="Titre_Carte"> Freelance - Business Developper </div>
+				<div class="Texte_Carte"> Durant cette période, j'ai réalisé une veille des cyber attaques mené en 2022 et effectué des recherches de prospects. J'ai participé à des rendez-vous clients et ai eu l'opportunité de contribuer à la mise en place de la stratégie commerciale.</div>
+				<div class="Vide_Carte"></div>
+				<div class="Date_Carte">Dates: Avril 2023</div>
 			</div>
 
-			<a href="https://www.sekoia.io/" target="_blank" id="repo_img">
-				<img src="Images/Exp_Sekoia.jpg" class="img_repo" />
+			<a href="https://www.sekoia.io/" target="_blank" class="Carte_Image">
+				<img src="Images/Exp_Sekoia.jpg"/>
 			</a>
 
-			<div id="repo">
-				<div id="RepoTitle"> Assistant Responsable Commercial </div>
-				<div id="DescriptRepo"> During this period, I carried out a watch on the cyber attacks conducted in 2022 and carried out research on prospects. I participated in customer meetings and had the opportunity to contribute to the implementation of the commercial strategy. This opened me to the world of cybersecurity and reinforced my desire to continue in this field.</div>
-				<div id="vide"></div>
-				<div id="LienRepo">Dates: January 2023</div>
+			<div class="Carte">
+				<div class="Titre_Carte"> Assistant Responsable Commercial </div>
+				<div class="Texte_Carte"> Durant cette période, j'ai réalisé une veille des cyber attaques mené en 2022 et effectué des recherches de prospects. J'ai participé à des rendez-vous clients et ai eu l'opportunité de contribuer à la mise en place de la stratégie commerciale.</div>
+				<div class="Vide_Carte"></div>
+				<div class="Date_Carte">Dates: Janvier 2023</div>
 			</div>
 
-			<a href="https://my-unilux.com/fr/" target="_blank" id="repo_img">
-				<img src="Images/Exp_Unilux.jpg" class="img_repo" />
+			<a href="https://my-unilux.com/fr/" target="_blank" class="Carte_Image">
+				<img src="Images/Exp_Unilux.jpg"/>
 			</a>
 
-			<div id="repo">
-				<div id="RepoTitle"> Assistant Contrôle Qualité </div>
-				<div id="DescriptRepo">As a Quality Control Assistant, I performed life cycle analyses with the EIME software. I also participated in the launch of the communication strategy via social networks (Instagram and LinkedIn) as well as on the company's website.</div>
-				<div id="vide"></div>
-				<div id="LienRepo">Dates: June/July 2022</div>
+			<div class="Carte">
+				<div class="Titre_Carte"> Assistant Contrôle Qualité </div>
+				<div class="Texte_Carte">En tant qu'Assistant contrôle qualité, j'ai réalisé des analyses de cycle de vie avec le logiciel EIME. J'ai également participé au lancement de la stratégie de communication via les réseaux sociaux (Instagram et LinkedIn) ainsi que sur le site internet de l'entreprise.</div>
+				<div class="Vide_Carte"></div>
+				<div class="Date_Carte">Dates: Juin/Juillet 2022</div>
 			</div>
-
-
 		</div>
-	</section>
+	</experience>
 
 	<line id="3"></line>
 
-	<section id="Domaine">
-		<div id="Title" style="margin-bottom: 4%;">My skills</div>
+	<competence>
+		<title style="margin-bottom: 4%;">Mes compétences</title>
 
-		<div id="DomaineBox">
-			<div id="DomaineTextTitle">Creativity</div>
-			<div id="DomaineTextText">I enjoy conceiving original ideas and unique designs that attract attention and engagement. My creative approach allows me to solve challenges in innovative ways and deliver visually appealing results...</div>
+		<div class="Competence_Box">
+			<div class="Competence_Title">La créativité</div>
+			<div class="Competence_Text">J'aime concevoir des idées originales et des designs uniques qui attirent l'attention et suscitent l'engagement. Mon approche créative me permet de résoudre les défis de manière innovante et de livrer des résultats visuellement attrayants...</div>
 		</div>
 
-		<div id="DomaineBox">
-			<div id="DomaineTextTitle">Communication</div>
-			<div id="DomaineTextText">I am able to build positive relationships with customers and clearly inform them of the company's offerings. My ability to communicate is an important asset in my sales roles.</div>
+		<div class="Competence_Box">
+			<div class="Competence_Title">Communication</div>
+			<div class="Competence_Text">J'arrive à établir des relations positives avec les clients et à les informer clairement sur les offres de l'entreprise. Ma capacité à communiquer est un atout important pour mes rôles commerciaux.</div>
 		</div>
 
-		<div id="DomaineBox">
-			<div id="DomaineTextTitle">Dynamism</div>
-			<div id="DomaineTextText"> This skill allows me to successfully complete the projects I take on and to be able to federate my teams. My proactive approach and my ability to work independently help me achieve my goals.</div>
+		<div class="Competence_Box">
+			<div class="Competence_Title">Dynamisme</div>
+			<div class="Competence_Text"> Cette compétence me permet de mener à bien les projets que je prends en charge et de pouvoir fédérer mes équipes. Mon approche proactive et ma capacité à travailler de manière indépendante m'aident à atteindre mes objectifs.</div>
+			<div style="display: flex; margin-top: 3%; margin-left: -3%;padding: 0%;height:1px;border-top: #000000 0.5px solid;"></div>
 		</div>
 
-		<div style="display: flex; margin-left: 25%;padding: 0%;height:1px;border-top: #000000 0.5px solid;"></div>
-
-	</section>
+	</competence>
 
 	<line id="4"></line>
 
-	<section class="Projet">
-		<div id="Title" style="margin-bottom: 4%;">My projects <div style="font-size: 50%; padding-top: 5%;padding-left: 4px;"> (french version)</div></div>
-		<div class="Boutton-text">
-			<button2 id="Cyber">Cyber</button2>
-			<button2 id="Programmes">Programmes</button2>
-			<button2 id="Conte">Conte</button2>
-			<button2 id="Certifications">Certifications</button2>
-			<button2 id="design">Design</button2>
-			<button2 id="frigs">Frig's</button2>
+	<projet>
+		<title style="margin-bottom: 4%;">Mes projets</title>
+		<div id="Bouton_Projet">
+			<button id="Bouton_Cyber">Cyber</button>
+			<button id="Bouton_Programmes">Programmes</button>
+			<button id="Bouton_Conte">Conte</button>
+			<button id="Bouton_Certifications">Certifications</button>
+			<button id="Bouton_Design">Design</button>
+			<button id="Bouton_Frigs">Frig's</button>
 		</div>
 
-		<div id="text-container">
-			<div id="texte">
-				<p id="title">Rapport cyber 2022</p>
-				<p id="text">Stagiaire en cybersécurité, j'ai observé les défis de sécurité numérique auxquels les entreprises et les individus sont confrontés. Dans ce rapport, j'aborde les différents types d'attaques, leurs conséquences et les mesures préventives pour se protéger. Mon objectif est de sensibiliser les utilisateurs aux risques de sécurité en ligne et de les aider à se protéger.</p>
-				<a id="link" href="Documents/Rapport_Cyber_2022.pdf" target="_blank"
-					style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
-					<button1 style="width: auto;"><b>En savoir plus...</b></button1>
+		<div id="Box_Projet">
+			<div id="Box_Texte_Projet">
+				<p id="Titre_Projet">Rapport cyber 2022</p>
+				<p id="Texte_Projet">Stagiaire en cybersécurité, j'ai observé les défis de sécurité numérique auxquels les entreprises et les individus sont confrontés. Dans ce rapport, j'aborde les différents types d'attaques, leurs conséquences et les mesures préventives pour se protéger. Mon objectif est de sensibiliser les utilisateurs aux risques de sécurité en ligne et de les aider à se protéger.</p>
+				<a id="Lien_Projet" href="Documents/Aperçu des cyber menaces les plus répandues sur l’année 2022.pdf" target="_blank" style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
+					<button style="width: auto;"><b>En savoir plus...</b></button>
 				</a>
 			</div>
-			<img id="image" src="Images/Project_Cyber.png">
+			<img id="Image_Projet" src="Images/Project_Cyber.png">
 		</div>
 
-	</section>
+		<section id="Cartes_Projets">
+			<div class="Carte_Projets active">
+				<div class="boutons" >
+					<button class="button arrowg" id="prev-btn" style="border: none;"></button>
+				  </div>
+			  <div class="Carte_Projets-contenu">
+				<p id="Titre_Projet">Rapport cyber 2022</p>
+				<img id="Image_Projet" src="Images/Project_Cyber.png">
+				<p id="Texte_Projet">Stagiaire en cybersécurité, j'ai observé les défis de sécurité numérique auxquels les entreprises et les individus sont confrontés. Dans ce rapport, j'aborde les différents types d'attaques, leurs conséquences et les mesures préventives pour se protéger. Mon objectif est de sensibiliser les utilisateurs aux risques de sécurité en ligne et de les aider à se protéger.</p>
+				<a id="Lien_Projet" href="Documents/Aperçu des cyber menaces les plus répandues sur l’année 2022.pdf" target="_blank" style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
+					<button style="width: auto;"><b>En savoir plus...</b></button>
+				</a>
 
+			  </div>
+			  <div class="boutons" >
+				<button class="button arrowd" id="next-btn" style="border: none;"></button>
+			  </div>
+			</div>
+
+			<div class="Carte_Projets">
+				<div class="boutons" >
+					<button class="button arrowg" id="prev-btn" style="border: none;"></button>
+				  </div>
+			  <div class="Carte_Projets-contenu">
+				<p id="Titre_Projet">Mon GitHub</p>
+				<img id="Image_Projet" src="Images/Project_Programmation.png">
+				<p id="Texte_Projet">Il présente une variété de projets développés au cours de ma formation en école d'ingénieur. Il comprend mon projet transverse de première année, un jeu en Python, ainsi qu'un jeu de Takuzu. Vous y trouverez également d'autres projets, qui montrent ma capacité à travailler sur des projets en groupe et à mettre en œuvre des compétences techniques variées...</p>
+				<a id="Lien_Projet" href="https://github.com/Quentinadl" target="_blank" style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
+					<button style="width: auto;"><b>En savoir plus...</b></button>
+				</a>
+			  </div>
+			  <div class="boutons" >
+				<button class="button arrowd" id="next-btn" style="border: none;"></button>
+			  </div>
+			</div>
+
+			<div class="Carte_Projets">
+				<div class="boutons" >
+					<button class="button arrowg" id="prev-btn" style="border: none;"></button>
+				  </div>
+			  <div class="Carte_Projets-contenu">
+				<p id="Titre_Projet">Le chat et la souris</p>
+				<img id="Image_Projet" src="Images/Project_Comte.png">
+				<p id="Texte_Projet">Imaginé pour un public de 6 à 8 ans, mon conte intitulé Le chat et la souris s'adresse aussi à un public plus âgé comprenant les dessous d'un réel problème de société. Je ne vous en dis pas plus, et vous laisse découvrir par vous-même la merveilleuse histoire de la souris Sète et du chat Malo...</br></br></p>
+				<a id="Lien_Projet" href="Documents/Le_chat_et_la_souris.pdf" target="_blank" style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
+					<button style="width: auto;"><b>En savoir plus...</b></button>
+				</a>
+			  </div>
+			  <div class="boutons" >
+				<button class="button arrowd" id="next-btn" style="border: none;"></button>
+			  </div>
+			</div>
+
+			<div class="Carte_Projets">
+				<div class="boutons" >
+					<button class="button arrowg" id="prev-btn" style="border: none;"></button>
+				  </div>
+			  <div class="Carte_Projets-contenu">
+				<p id="Titre_Projet">MOOC de L'ANSSI</p>
+				<img id="Image_Projet" src="Images/Project_Certification.png">
+				<p id="Texte_Projet">Cette formation m'a permis d'acquérir les premières connaissances en matière de cybersécurité, en couvrant des sujets tels que la gestion des risques, la cryptographie et la sécurité des systèmes.</p>
+				<a id="Lien_Projet" href="https://secnumacademie.gouv.fr/" target="_blank" style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
+					<button style="width: auto;"><b>En savoir plus...</b></button>
+				</a>
+			  </div>
+			  <div class="boutons" >
+				<button class="button arrowd" id="next-btn" style="border: none;"></button>
+			  </div>
+			</div>
+
+			<div class="Carte_Projets">
+				<div class="boutons" >
+					<button class="button arrowg" id="prev-btn" style="border: none;"></button>
+				  </div>
+			  <div class="Carte_Projets-contenu">
+				<p id="Titre_Projet">Application mobile</p>
+				<img id="Image_Projet" src="Images/Project_Frig's.png">
+				<p id="Texte_Projet">Nous sommes une équipe d'étudiants en ingénierie qui a créé Frig's, une application innovante visant à résoudre le problème du gaspillage alimentaire. Frig's permet à chacun de vider son frigo tout en réduisant la quantité de déchets alimentaires dans les ménages. Notre prototype, réalisé en équipe dans le cadre d'un projet semestriel.</p>
+				<a id="Lien_Projet" href="Documents/Frigs.pdf" target="_blank" style="text-decoration: none; width: auto; display: flex; margin-top:auto; margin-bottom: 10%;margin-left:auto; margin-right: 10%;">
+					<button style="width: auto;"><b>En savoir plus...</b></button>
+				</a>
+			  </div>
+			  <div class="boutons" >
+				<button class="button arrowd" id="next-btn" style="border: none;"></button>
+			  </div>
+			</div>
+
+		</section>
+	</projet>
 </body>
 
-<footer id="footer">
-	<div id="footer-container">
+<footer>
+	<div id="Box_Footer">
 		
-		<div class="logos" style="border-right: 1px solid #000000;">
-			<a id="GitHub" href="https://github.com/Quentinadl"><img src="Images/Logo_GitHub_blanc.png" ></a>
+		<div id="Box_Logos" style="border-right: 1px solid white;">
+			<a href="https://github.com/Quentinadl"><img src="Images/Logo_GitHub_blanc.png" ></a>
 			<a href="https://www.linkedin.com/in/quentin-adl/"><img src="Images/Logo_LinkedIn_blanc.png" ></a>
 			<a href="https://www.instagram.com/_quentin_adl_/?next=%2F"><img src="Images/Logo_Instagram_blanc.png" ></a>
 		</div>
 
-		<div class="ecole">
+		<div class="Box_Ecole">
 			<a href="https://sepefrei.fr/"><img src="Images/Logo_SEPEFREI_blanc.png" alt="Logo Facebook"></a>
 			<a href="https://www.efrei.fr/"><img src="Images/Logo_EFREI_blanc.png" alt="Logo Twitter" style="padding-left: 5px; margin-top: 2%;"></a>
 		</div>
 
-		<!-- 		  <div class="contact-form">
-		<form id="contact-form">
-		  <input type="email" placeholder="Entrez votre adresse email">
-		  <textarea placeholder="Votre message"></textarea>
-		  <button type="submit">Envoyer</button>
-		</form>
-	  </div> -->
-
 	</div>
-	<p class="text-center">&copy; Quentin ADELINE -  All rights reserved</p>
+	<p class="Texte_Copyright">&copy; Quentin ADELINE -  Tout droit réservé</p>
 </footer>
 
 <script src="Style/JS/Main.js"></script>
