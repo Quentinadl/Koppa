@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(to bottom, var(--couleur-verte), var(--couleur-fond));
     display: flex;
@@ -23,12 +23,12 @@ body {
 presentation{
     flex-direction: column;
     width: 100%;
-    height: 15%;
+    height: 13%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 presentation img {
@@ -53,11 +53,10 @@ presentation p{
 
 etiquettes {
     display: flex;
-    height: 55%;
+    height: 35%;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    justify-content: center;
 }
 
 etiquette {
