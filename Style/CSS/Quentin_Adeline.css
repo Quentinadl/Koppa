@@ -48,38 +48,58 @@ presentation p{
 }
 
 etiquettes {
+    display: flex;
+
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    display: flex;
     justify-content: center;
 }
 
 etiquette {
+    display: flex;
     width: 80%;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 0px;
     border-radius: 10px;
-    display: flex;
     align-items: center;
     background-color: var(--couleur-text);
 }
 
+
 etiquette a {
+    display: flex;
     text-decoration: none;
     color: var(--couleur-text);
-    display: flex;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .social-logo {
+    display: flex;
     width: 30px;
     height: 30px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
-etiquette span {
+etiquette p {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+
     align-items: center;
+    text-align: center;
     font-weight: bold;
     color: var(--couleur-fond);
+}
+
+.ManPresentation{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-left: 50px;
+
 }
