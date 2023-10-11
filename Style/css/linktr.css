@@ -1,0 +1,153 @@
+
+html{
+    scroll-behavior: smooth;
+    /* background: linear-gradient(to bottom, var(--couleur-verte), var(--couleur-fond)); */
+
+}
+:root{
+	--couleur-fond: #EDEEF0;
+	--couleur-text: #333333;
+	--couleur-fonce: #000;
+	--couleur-verte: #6D9C86;
+	--couleur-gros-texte: #FFF;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-beige);
+  }
+
+body {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-image{
+    background-image: url("../../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#presentation{
+    flex-direction: column;
+    width: 100%;
+    height: 13%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#presentation img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#presentation h1 {
+    z-index: 1;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: "Italiana-regular";
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--couleur-text);
+}
+
+#presentation p{
+    margin-top: -10px;
+    color: var(--couleur-text);
+    font-size: small;
+    text-align: center;
+    font-family: "Poppins";
+    margin: 10px;
+}
+
+#etiquettes {
+    display: flex;
+    height: 35%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}   
+
+.etiquette {
+    display: flex;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 0px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: var(--couleur-text);
+}
+
+
+.etiquette a {
+    display: flex;
+    text-decoration: none;
+    color: var(--couleur-text);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.social-logo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.etiquette p {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    font-family: "Poppins-thin";
+
+    color: var(--couleur-fond);
+}
+
+.ManPresentation{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 30%;;
+    padding-left: 50px;
+
+}
+
+footer {
+    display: flex;
+    background-color: var(--couleur-text);
+    height: 3%;
+    bottom: auto;
+    bottom: 0px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+.footer-content {
+    color: var(--couleur-fond);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-size: "Italiana";
+}

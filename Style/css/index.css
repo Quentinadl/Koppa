@@ -1,0 +1,794 @@
+#Presentation {
+  position: absolute;
+  background-image: url("../../images/background1.png");
+  background-size: cover;
+
+  margin: 15px;
+  width: 98vw;
+  height: 98vh;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 98vh;
+}
+
+/* Styles pour le nom de la marque */
+.content h1 {
+  font-size: 100px;
+  font-family: "Italiana-regular";
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 15px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+/* Styles pour la désignation "web design" */
+.content h2 {
+  font-size: 30px;
+  font-family: "Poppins-thin";
+  text-align: center;
+  font-weight: 150;
+}
+
+/* Styles pour la barre avec texte centré */
+.divider {
+  width: 100px;
+  height: 0.5px;
+  margin-top: 5px;
+  margin-bottom: 44px;
+  background-color: black;
+}
+
+#AboutMe {
+  position: absolute;
+  background-image: url("../../images/background2.png");
+  background-size: cover;
+
+  top: 98vh;
+  margin: 15px;
+  width: 98vw;
+  height: 98vh;
+  z-index: 1;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 98vh;
+}
+
+.aboutme h3 {
+  font-size: 50px;
+  font-family: "Poppins-thin";
+  text-align: left;
+  font-weight: 150;
+  margin-bottom: 2%;
+  padding-left: 15%;
+  margin-top: 5%;
+}
+
+.aboutme p {
+  font-size: 18px;
+  font-family: "Poppins";
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+
+  font-weight: 150;
+  margin-bottom: 10px;
+}
+
+#Experience {
+  position: absolute;
+  background-image: url("../../images/background3.png");
+  background-size: cover;
+
+  top: 196vh;
+  margin: 15px;
+  width: 98vw;
+  height: 98vh;
+  z-index: 1;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 98vh;
+}
+
+.experience h3 {
+  font-size: 50px;
+  font-family: "Poppins-thin";
+  text-align: left;
+  font-weight: 150;
+  margin-bottom: 5%;
+  padding-left: 15%;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-content a {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 21vw;
+  height: 48vh;
+}
+
+#card1 {
+  background-image: url("../../images/Card1.png");
+  background-size: cover;
+}
+
+#card2 {
+  background-image: url("../../images/Card2.png");
+  background-size: cover;
+}
+
+#card3 {
+  background-image: url("../../images/Card3.png");
+  background-size: cover;
+}
+
+#card4 {
+  background-image: url("../../images/Card4.png");
+  background-size: cover;
+}
+
+.card img {
+  height: 7vh;
+  width: auto;
+  margin-top: 9vh;
+}
+
+line {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.card p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+
+  width: 90%;
+  height: 2vh;
+
+  font-weight: 150;
+  font-size: 12px;
+  color: white;
+  font-size: px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.card h5 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12vh;
+
+  font-size: 10px;
+  font-family: "Popins-thin";
+  text-align: center;
+  font-weight: 150;
+  color: white;
+
+  width: 90%;
+}
+
+#Projects {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../images/background4.png");
+  background-size: cover;
+
+  top: 294vh;
+  margin: 15px;
+  width: 98vw;
+  height: 98vh;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 98vh;
+}
+
+.projects h3 {
+  font-size: 50px;
+  font-family: "Poppins-thin";
+  text-align: left;
+  font-weight: 150;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  padding-left: 15%;
+}
+
+.projects-content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 85%;
+  height: 50vh;
+  padding: 2%;
+}
+
+.projects-button {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#Button-case {
+  display: flex;
+  list-style-type: none;
+  width: auto;
+}
+
+#Button-case li {
+  width: 100%;
+}
+
+#Bouton_Cyber,
+#Bouton_Programmes,
+#Bouton_Conte,
+#Bouton_Certifications,
+#Bouton_Frigs {
+  background-image: url("../../images/Bouton_Vert.png");
+}
+
+#Bouton_Blog,
+#Bouton_Cyber,
+#Bouton_Programmes,
+#Bouton_Conte,
+#Bouton_Certifications,
+#Bouton_Frigs{
+  display: flex;
+  padding: 5px 10px;
+  margin-right: 10px;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: var(--color-beige);
+
+  background-size: 100% 100%; /* Force l'image à remplir la totalité de l'espace disponible */
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 10;
+}
+
+#Bouton_Blog a,
+#Bouton_Cyber a,
+#Bouton_Programmes a,
+#Bouton_Conte a,
+#Bouton_Certifications a,
+#Bouton_Frigs a{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+#Bouton_Blog {
+  background-image: url("../../images/Bouton_Orange.png");
+}
+
+
+#Titre_Projet {
+  /* Taille */
+  height: 10vh;
+  padding-top: 5vh;
+
+  /* Police */
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 800;
+  text-align: left;
+}
+
+#Texte_Projet {
+  display: flex;
+  text-align: left;
+  height: 30vh;
+
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--couleur-text);
+}
+
+.projects-content a#Lien_Projet {
+  text-decoration: none;
+  color: var(--color-brown);
+  display: flex;
+  font-size: 20px;
+  right: 20px;
+  margin-left: auto;
+  font-family: "Poppins";
+}
+
+.projects-content img {
+  height: auto;
+  width: 38%;
+  padding: 2%;
+}
+
+#Exercice {
+  position: absolute;
+  background-image: url("../../images/background2.png");
+  background-size: cover;
+
+  top: 98vh;
+  margin: 15px;
+  width: 98vw;
+  height: 98vh;
+  z-index: 1;
+}
+
+.exercice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 98vh;
+}
+
+.exercice h1 {
+  font-size: 50px;
+  font-family: "Poppins-thin";
+  text-align: left;
+  font-weight: 150;
+  margin-bottom: 7%;
+  padding-left: 15%;
+  margin-top: 5%;
+}
+
+.exercice form {
+  font-size: 18px;
+  font-family: "Poppins";
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+
+  font-weight: 150;
+  margin-bottom: 60px;
+}
+
+
+@media screen and (max-width : 1094px) {
+  #Presentation {
+    position: absolute;
+    background-image: url("../../images/background0.0.png");
+    background-size: cover;
+  
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* Styles pour le nom de la marque */
+  .content h1 {
+    font-size: 40px;
+    font-family: "Italiana-regular";
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Styles pour la désignation "web design" */
+  .content h2 {
+    font-size: 17px;
+    font-family: "Poppins-thin";
+    text-align: center;
+    font-weight: 150;
+  }
+  
+  /* Styles pour la barre avec texte centré */
+  .divider {
+    width: 70px;
+    height: 0.2px;
+    margin-top: 5px;
+    margin-bottom: 44px;
+    background-color: black;
+  }
+  
+  #AboutMe {
+    position: absolute;
+    background-image: url("../../images/background0.1.png");
+    background-size: cover;
+  
+    top: 100vh;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 100vh;
+  }
+  
+  .aboutme h3 {
+    font-size: 30px;
+    font-family: "Poppins-thin";
+    text-align: left;
+    font-weight: 150;
+    margin-bottom: 2%;
+    padding-left: 15%;
+    margin-top: 5%;
+  }
+  
+  .aboutme p {
+    font-size: 15px;
+    font-family: "Poppins";
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  
+    font-weight: 150;
+    margin-bottom: 10px;
+  }
+  
+  #Experience {
+    position: absolute;
+    background-image: url("../../images/background0.2.png");
+    background-size: cover;
+  
+    top: 200vh;
+    margin: 0px;
+    width: 100vw;
+    height: 170vh;
+    z-index: 1;
+  }
+  
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 100%;
+  }
+  
+  .experience h3 {
+    font-size: 30px;
+    font-family: "Poppins-thin";
+    text-align: left;
+    font-weight: 150;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-left: 15%;
+  }
+  
+  .experience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .experience-content a {
+    text-decoration: none;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 35vh;
+  }
+  
+  #card1 {
+    background-image: url("../../images/Card1.png");
+    background-size: cover;
+  }
+  
+  #card2 {
+    background-image: url("../../images/Card2.png");
+    background-size: cover;
+  }
+  
+  #card3 {
+    background-image: url("../../images/Card3.png");
+    background-size: cover;
+  }
+  
+  #card4 {
+    background-image: url("../../images/Card4.png");
+    background-size: cover;
+  }
+  
+  .card img {
+    height: 5vh;
+    width: auto;
+    margin-top: 7vh;
+  }
+  
+  line {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  
+  .card p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  
+    width: 90%;
+    height: 2vh;
+  
+    font-weight: 150;
+    font-size: 12px;
+    color: white;
+    font-size: px;
+    font-family: "Poppins";
+    text-align: center;
+  }
+  
+  .card h5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+  
+    font-size: 10px;
+    font-family: "Popins-thin";
+    text-align: center;
+    font-weight: 150;
+    color: white;
+  
+    width: 90%;
+  }
+  
+  #Projects {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../../images/background4.png");
+    background-size: cover;
+  
+    top: 294vh;
+    margin: 15px;
+    width: 98vw;
+    height: 98vh;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 98vh;
+  }
+  
+  .projects h3 {
+    font-size: 50px;
+    font-family: "Poppins-thin";
+    text-align: left;
+    font-weight: 150;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    padding-left: 15%;
+  }
+  
+  .projects-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 85%;
+    height: 50vh;
+    padding: 2%;
+  }
+  
+  .projects-button {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #Button-case {
+    display: flex;
+    list-style-type: none;
+    width: auto;
+  }
+  
+  #Button-case li {
+    width: 100%;
+  }
+  
+  #Bouton_Cyber,
+  #Bouton_Programmes,
+  #Bouton_Conte,
+  #Bouton_Certifications,
+  #Bouton_Frigs {
+    background-image: url("../../images/Bouton_Vert.png");
+  }
+  
+  #Bouton_Blog,
+  #Bouton_Cyber,
+  #Bouton_Programmes,
+  #Bouton_Conte,
+  #Bouton_Certifications,
+  #Bouton_Frigs{
+    display: flex;
+    padding: 5px 10px;
+    margin-right: 10px;
+  
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: var(--color-beige);
+  
+    background-size: 100% 100%; /* Force l'image à remplir la totalité de l'espace disponible */
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 10;
+  }
+  
+  #Bouton_Blog a,
+  #Bouton_Cyber a,
+  #Bouton_Programmes a,
+  #Bouton_Conte a,
+  #Bouton_Certifications a,
+  #Bouton_Frigs a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #Bouton_Blog {
+    background-image: url("../../images/Bouton_Orange.png");
+  }
+  
+  
+  #Titre_Projet {
+    /* Taille */
+    height: 10vh;
+    padding-top: 5vh;
+  
+    /* Police */
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+  }
+  
+  #Texte_Projet {
+    display: flex;
+    text-align: left;
+    height: 30vh;
+  
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--couleur-text);
+  }
+  
+  .projects-content a#Lien_Projet {
+    text-decoration: none;
+    color: var(--color-brown);
+    display: flex;
+    font-size: 20px;
+    right: 20px;
+    margin-left: auto;
+    font-family: "Poppins";
+  }
+  
+  .projects-content img {
+    height: auto;
+    width: 38%;
+    padding: 2%;
+  }
+  
+  #Exercice {
+    position: absolute;
+    background-image: url("../../images/background2.png");
+    background-size: cover;
+  
+    top: 98vh;
+    margin: 15px;
+    width: 98vw;
+    height: 98vh;
+    z-index: 1;
+  }
+  
+  .exercice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 98vh;
+  }
+  
+  .exercice h1 {
+    font-size: 50px;
+    font-family: "Poppins-thin";
+    text-align: left;
+    font-weight: 150;
+    margin-bottom: 7%;
+    padding-left: 15%;
+    margin-top: 5%;
+  }
+  
+  .exercice form {
+    font-size: 18px;
+    font-family: "Poppins";
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+  
+    font-weight: 150;
+    margin-bottom: 60px;
+  }
+
+}

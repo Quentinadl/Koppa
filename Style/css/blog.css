@@ -1,0 +1,144 @@
+#Presentation {
+  position: absolute;
+  background-image: url("../../images/Blog/background1.png");
+  background-size: cover;
+  margin: 15px;
+  width: 98vw;
+  height: 97vh;
+  z-index: 1;
+}
+
+/*-----Elements de Expérience -----*/
+#experience {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 45vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+  height: 40vh;
+  width: 70vw;
+}
+
+#Cartes {
+  overflow: scroll;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+/* width */
+#Cartes::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+#Cartes::-webkit-scrollbar-track {
+  background: #edeef0;
+  border: 1px solid #4a4a4a;
+  margin: 300px;
+  padding-bottom: 0px;
+}
+
+/* Handle */
+#Cartes::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  /*     border-radius: 50px;
+ */
+}
+
+.Carte {
+  display: flex;
+  background: #ffffff;
+  min-width: 200px;
+  height: 33vh;
+  margin-right: 20px;
+
+  flex-direction: column;
+  text-decoration: none;
+
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px #00000040;
+}
+
+.Carte img {
+  display: inline;
+  background: #ffffff;
+  height: auto;
+  width: 100%;
+
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Carte h2 {
+  width: auto;
+  padding: 10px;
+
+  font-size: 16px;
+  font-family: "Poppins-thin";
+  font-weight: 800;
+  text-align: center;
+
+  text-decoration: none;
+  color: #000000;
+}
+
+/*-----Elements de responsivité-----*/
+
+@media screen and (max-width: 1094px) {
+  #Cartes {
+    height: 100%;
+  }
+  #Cartes::-webkit-scrollbar {
+    display: none;
+  }
+
+  .Carte {
+    height: 800px;
+    width: auto;
+  }
+
+  .Carte_Image {
+    height: 800px;
+    width: 410px;
+    margin-left: 3%;
+    margin-right: 0%;
+  }
+
+  .Titre_Carte {
+    height: 15%;
+    font-size: 35px;
+  }
+
+  .Texte_Carte {
+    width: auto;
+    height: 50%;
+    margin: 5%;
+
+    margin-top: -15px;
+    margin-left: 10%;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .Vide_Carte {
+    width: 500px;
+    height: 5%;
+  }
+
+  .Date_Carte {
+    height: 5%;
+
+    padding-top: 20%;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: none;
+    color: #2b2b2b;
+  }
+}

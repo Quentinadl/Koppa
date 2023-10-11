@@ -1,0 +1,288 @@
+:root {
+  --color-brown: #cd8e6b;
+  --color-green: #93b29c;
+  --color-beige: #fff6e3;
+}
+
+/*Insérer les police d'écriture Poppins et Italiana stoker dans le dossier font dans public*/
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-thin";
+  src: url("../font/Poppins/Poppins-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Italiana-regular";
+  src: url("../font/Italiana/Italiana-Regular.ttf");
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-beige);
+}
+
+body::-webkit-scrollbar {
+  width: 0px; /* Largeur de la barre de défilement */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+button,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  position: fixed;
+
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+/* Styles pour la bordure blanche */
+.border-top {
+  position: absolute;
+  height: 15px;
+  width: 100vw;
+  top: 0px;
+  background-color: white;
+}
+
+.border-right {
+  position: absolute;
+  height: 100vh;
+  width: 15px;
+  top: 0px;
+  left: 99vw;
+  background-color: white;
+}
+
+.border-bottom {
+  position: absolute;
+  height: 15px;
+  width: 100vw;
+  top: 97.5vh;
+  background-color: white;
+}
+
+.border-left {
+  position: absolute;
+  height: 100vh;
+  width: 15px;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+}
+
+/* Styles pour la barre de navigation */
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100vw;
+  transition: 2s;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  fill: rgba(217, 217, 217, 0.09);
+  box-shadow: 0px 3px 3px 0px #00000040;
+  backdrop-filter: blur(2px);
+  transition: 2s;
+  padding: 3px;
+}
+
+.nav ul {
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li a {
+  color: #000;
+  margin: 15px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Poppins";
+  transition: 2s;
+}
+
+.nav ul li a:hover {
+  color: var(--color-brown);
+  transition: 1s;
+}
+
+#Contact {
+  display: none;
+  flex-direction: column;
+  height: auto;
+}
+
+#Contact line {
+  width: 60%;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Contact p {
+  font-size: 18px;
+  font-family: "Poppins";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 3%;
+  height: 40%;
+
+  font-weight: 150;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+#Contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: "Poppins";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 3%;
+  text-decoration: underline;
+
+  font-weight: 150;
+  font-size: 12px;
+}
+
+.ul2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+.ul2 img {
+  height: 40px;
+  width: auto;
+}
+
+.main {
+  display: flex;
+  display: flex;
+  z-index: 0;
+  padding: 20px;
+}
+
+
+
+/* Style pour le format mobile */
+@media screen and (max-width : 1094px) {
+
+  header {
+    position: absolute;
+    position: fixed;
+  
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+  }
+  
+  /* Styles pour la bordure blanche */
+  .border-top {
+    position: absolute;
+    height: 1vh;
+    width: 100vw;
+    top: 0px;
+    background-color: white;
+  }
+  
+  .border-right {
+    position: absolute;
+    height: 100vh;
+    width: 1vw;
+    top: 0px;
+    left: 99vw;
+    background-color: white;
+  }
+  
+  .border-bottom {
+    position: absolute;
+    height: 1vh;
+    width: 100vw;
+    top: 99vh;
+    background-color: white;
+  }
+  
+  .border-left {
+    position: absolute;
+    height: 100vh;
+    width: 1vw;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+  }
+  
+  /* Styles pour la barre de navigation */
+  .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 100vw;
+    transition: 2s;
+
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    fill: rgba(217, 217, 217, 0.09);
+    box-shadow: 0px 3px 3px 0px #00000040;
+    backdrop-filter: blur(2px);
+    transition: 2s;
+    padding: 3px;
+  }
+  
+}
