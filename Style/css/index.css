@@ -349,49 +349,6 @@ line {
   padding: 2%;
 }
 
-#Exercice {
-  position: absolute;
-  background-image: url("../../images/background2.png");
-  background-size: cover;
-
-  top: 98vh;
-  margin: 15px;
-  width: 98vw;
-  height: 98vh;
-  z-index: 1;
-}
-
-.exercice {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  height: 98vh;
-}
-
-.exercice h1 {
-  font-size: 50px;
-  font-family: "Poppins-thin";
-  text-align: left;
-  font-weight: 150;
-  margin-bottom: 7%;
-  padding-left: 15%;
-  margin-top: 5%;
-}
-
-.exercice form {
-  font-size: 18px;
-  font-family: "Poppins";
-  text-align: left;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10%;
-
-  font-weight: 150;
-  margin-bottom: 60px;
-}
-
 
 @media screen and (max-width : 1094px) {
   #Presentation {

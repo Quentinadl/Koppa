@@ -116,6 +116,13 @@ header {
   backdrop-filter: blur(2px);
   transition: 2s;
   padding: 3px;
+
+  transform-origin: top;
+  transition: transform 0.5s ease;
+}
+
+.nav.open {
+  transform: scaleY(1); /* Cela agrandira progressivement l'élément */
 }
 
 .nav ul {

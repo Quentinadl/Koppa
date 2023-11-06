@@ -62,6 +62,22 @@
 
   border-radius: 10px;
   box-shadow: 0px 10px 10px 0px #00000040;
+
+  background-color: red;
+}
+
+.Carte:hover {
+  position: absolute;
+  display: flex;
+
+  top: 20vh;
+  left: 10vw;
+  
+  background-color: green;
+  width: 80vw;
+  height: 60vh;
+
+  transition: 2s;
 }
 
 .Carte img {

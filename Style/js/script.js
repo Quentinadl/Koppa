@@ -92,7 +92,6 @@ function DisplayContact(){
   else{
     document.getElementById("Contact").style.display = "none";
     document.getElementById("contact").style.color = "#333";
-
   }
 }
 
@@ -101,3 +100,8 @@ function HideContact(){
   document.getElementById("contact").style.color = "#333";
 }
 
+
+function OpenCarte(){
+  document.getElementById("Carte").style.display = "flex";
+  document.getElementById("Carte-img").style.display = "none";
+}
