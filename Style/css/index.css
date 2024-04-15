@@ -131,28 +131,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 21vw;
-  height: 48vh;
+  width: 220px;
+  height: 220px;
+  background-size: cover;
+
 }
 
 #card1 {
   background-image: url("../../images/Card1.png");
-  background-size: cover;
 }
 
 #card2 {
   background-image: url("../../images/Card2.png");
-  background-size: cover;
 }
 
 #card3 {
   background-image: url("../../images/Card3.png");
-  background-size: cover;
 }
 
 #card4 {
   background-image: url("../../images/Card4.png");
-  background-size: cover;
 }
 
 .card img {
@@ -167,15 +165,14 @@ line {
   margin-right: auto;
   height: 1px;
   background-color: rgb(255, 255, 255);
-  margin-top: 4vh;
-  margin-bottom: 4vh;
+  margin-top:1vh;
 }
 
 .card p {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-top: 10%;
 
   width: 90%;
   height: 2vh;
@@ -191,7 +188,7 @@ line {
 .card h5 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12vh;
+  margin-top: 10vh;
 
   font-size: 10px;
   font-family: "Popins-thin";
