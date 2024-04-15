@@ -63,7 +63,7 @@ header {
 /* Styles pour la bordure blanche */
 .border-top {
   position: absolute;
-  height: 15px;
+  height: 1.5vh;
   width: 100vw;
   top: 0px;
   background-color: white;
@@ -72,7 +72,7 @@ header {
 .border-right {
   position: absolute;
   height: 100vh;
-  width: 15px;
+  width: 1vw;
   top: 0px;
   left: 99vw;
   background-color: white;
@@ -80,16 +80,16 @@ header {
 
 .border-bottom {
   position: absolute;
-  height: 15px;
+  height: 1.5vh;
   width: 100vw;
-  top: 97.5vh;
+  top: 98.5vh;
   background-color: white;
 }
 
 .border-left {
   position: absolute;
   height: 100vh;
-  width: 15px;
+  width: 1vw;
   top: 0px;
   left: 0px;
   background-color: white;
@@ -113,7 +113,7 @@ header {
   margin-right: auto;
   fill: rgba(217, 217, 217, 0.09);
   box-shadow: 0px 3px 3px 0px #00000040;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(15  px);
   transition: 2s;
   padding: 3px;
 
@@ -287,7 +287,7 @@ header {
     margin-right: auto;
     fill: rgba(217, 217, 217, 0.09);
     box-shadow: 0px 3px 3px 0px #00000040;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(15px);
     transition: 2s;
     padding: 3px;
   }
